@@ -1,0 +1,460 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.brand {
+    background-color: black;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+}
+
+.brandmain{
+    display :flex;
+    justify-content: space-between;
+
+}
+.imgbrand {
+    /* float :left; */
+    display : flex;
+    align-items: center;
+    width: 30%;
+}
+.thongtinbrand {
+    /* float : right; */
+    display: flex;
+    justify-content: flex-end;
+    width: 70%;
+}
+.thongtin_brand {
+    padding: 28px 17px;
+    margin: 0px;
+    color: white;
+}
+.thongtin_brand a:hover{
+    color: #1ed760;
+    text-decoration: none;
+}
+.thongtin_brand .help{
+    color: #1ed760;
+}
+.ngancachbrand  {
+    margin: auto 17px;
+    color: white;
+    padding: 0px;
+}
+.thongtin_brand a {
+    color: white;
+    font-size:16px;
+    font-weight:400;
+    line-height:24px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+}
+.search{
+    width: 100%;
+    height: 313.2px;
+    background-image: url("https://s3.envato.com/files/220812629/preview_image.jpg");
+    background-size: cover;
+}
+.search .container{
+    padding: 80px 8px 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+.searchmain{
+    margin: 0 -8px 0;
+    margin-left: 16.66666667%;
+    width: 66.66666667%;
+}
+.searchbox h1{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: -.03em;
+    padding: 0;
+    color: #fff;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    text-align: center;
+}
+input{
+    background-color: #fff;
+    border: 0;
+    color: #000;
+    font-weight: 500;
+    width: 100%;
+    height: 55px;
+    font:18px;
+    border-radius: 10px;
+    padding:6px 20px;
+    opacity: 0.8;
+    outline: none;
+}
+form{
+    position: relative;
+}
+button{
+    position: absolute;
+    top: 0;
+    right: 8px;
+    border: none;
+    width: 65px;
+    height: 55px;
+    background-color: transparent;
+    cursor: pointer;
+}
+::placeholder{
+    font-size: 18px;
+    color: black;
+    font-weight: 400;
+}
+input:focus::placeholder{
+    color: #2d46b9;
+}
+.account{
+    width: 100%;
+    height: 430.6px;
+    background-color: #efefef;
+    position: relative;
+}
+.account .muiten{
+    width: 52px;
+    height: 52px;
+    background-color: #fff;
+    border-radius: 100%;
+    box-shadow: 0 0 7px 0 rgba(0,0,0,.13);
+    float: left;
+    padding-left: 15px;
+    padding-top: 10px;
+    z-index: 2;
+    color: #2d46b9;
+    position: absolute;
+    top:-25px;
+    transition: all .3s ease-in-out;
+}
+.muiten:hover{
+    color: #1e3264;
+    transform: scale(1.2);
+}
+.accountmain{
+    margin: 0 -8px 0;
+    margin-left: 5%;
+    display :flex;
+}
+.categories{
+    padding: 60px;
+    width: 100%;
+    display :flex;
+}
+.thongtin_account{
+    width:33.33%;
+}
+.thumuc_thongtin_account{
+    line-height: 20px;
+}
+.thumuc_thongtin_account a{
+    font-weight: 700;
+    color: #2d46b9;
+    font-size: 18px;
+}
+.thumuc_thongtin_account a:hover{
+    color: #1e3264;
+    text-decoration: none;
+}
+.thumucdau_thongtin_account{
+    font-size: 24px;
+    color: black;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.community{
+    background-color: #fff;
+    position: relative;
+    width: 100%;
+    height: 477.4px;
+}
+.community .muiten{
+    width: 52px;
+    height: 52px;
+    background-color: #fff;
+    border-radius: 100%;
+    box-shadow: 0 0 7px 0 rgba(0,0,0,.13);
+    float: left;
+    padding-left: 15px;
+    padding-top: 10px;
+    z-index: 2;
+    color: #2d46b9;
+    position: absolute;
+    top:-25px;
+    transition: all .3s ease-in-out;
+}
+.community h1{
+    padding: 100px 0 30px;
+    text-align: center;
+    font-size: 60px;
+    line-height: 58px;
+    font-weight: 700;
+}
+.community p{
+    text-align: center;
+    line-height: 10px;
+    font-size: 18px;
+}
+.community .anwser{
+    background-color: #2d46b9;
+    width: 245.26px;
+    height: 47.6px;
+    float: left;
+    margin-left: 39%;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    padding-right: 5px;
+    padding-top: 12px;
+    border-radius: 30px;
+    margin-top: 80px;
+}
+.community .anwser:hover{
+    background-color: #1e3264;
+    text-decoration: none;
+}
+.feature{
+    background-color: #f54a3a;
+    position: relative;
+    width: 100%;
+    height: 1220.8px;
+}
+.feature .muiten{
+    width: 52px;
+    height: 52px;
+    background-color: #fff;
+    border-radius: 100%;
+    box-shadow: 0 0 7px 0 rgba(0,0,0,.13);
+    float: left;
+    padding-left: 15px;
+    padding-top: 10px;
+    z-index: 2;
+    color: #2d46b9;
+    position: absolute;
+    top:-25px;
+    transition: all .3s ease-in-out;
+}
+.feature h1{
+    color: #fff;
+    padding: 100px 114px 75px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 58px;
+    letter-spacing: -.03em;
+}
+.feature h2{
+    font-size: 18px;
+    color: #fff;
+    line-height: 40px;
+    border-bottom: 1px solid #fff;
+    font-weight: 400;
+}
+.feature h3{
+    font-size: 28px;
+    padding-top: 16px;
+    margin-bottom: 13px;
+    color: #fff;
+    font-weight: 400;
+    margin-top: 50px;
+}
+.feature h4{
+    font-size: 28px;
+    padding-top: 16px;
+    margin-bottom: 13px;
+    color: #fff;
+    font-weight: 400;
+}
+.feature p{
+    padding-right: 20px;
+    color: #fff;
+    line-height: 10px;
+    font-size: 18px;
+    margin: 9px 0px 18px;
+}
+.feature a{
+    color: white;
+    font-size: 18px;
+    border-bottom: 1px solid #fff;
+}
+.feature a:hover{
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid black;
+}
+.left_feature{
+    width:40%;
+    float: left;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.right_feature{
+    width: 40%;
+    float: left;
+}
+
+
+
+
+
+.spotify{
+    background-color: #efefef;
+    position: relative;
+    width: 100%;
+    height: 491.8px;
+}
+.spotify .muiten{
+    width: 52px;
+    height: 52px;
+    background-color: #fff;
+    border-radius: 100%;
+    box-shadow: 0 0 7px 0 rgba(0,0,0,.13);
+    float: left;
+    padding-left: 15px;
+    padding-top: 10px;
+    z-index: 2;
+    color: #2d46b9;
+    position: absolute;
+    top:-25px;
+    transition: all .3s ease-in-out;
+}
+.spotify h1{
+    padding: 100px 0 30px;
+    text-align: center;
+    font-size: 60px;
+    line-height: 58px;
+    font-weight: 700;
+}
+.spotify p{
+    text-align: center;
+    line-height: 10px;
+    font-size: 18px;
+}
+.spotify .download{
+    background-color: #2d46b9;
+    width: 204.35px;
+    height: 47.6px;
+    float: left;
+    margin-left: 40%;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    padding-right: 5px;
+    padding-top: 12px;
+    border-radius: 30px;
+    margin-top: 80px;
+}
+.spotify .download:hover{
+    background-color: #1e3264;
+    text-decoration: none;
+}
+footer  {
+    color: white;
+    background-color: black;
+    padding : 80px 0px 50px 0px;
+}
+
+.footer1 {
+    display: flex;
+}
+.left_footer {
+    width: 70%;
+    display :flex;
+}
+.right_footer  {
+    width: 30%;
+    display : flex;
+    justify-content: flex-end;
+    margin-top:20px;
+}
+.img_footer {
+    width: 25%;
+}
+.thongtin_footer {
+    width: 25%;
+}
+.thumnuc_thongtin_footer  {
+    width: 80%;
+    line-height:24px;
+    font-weight:400;
+    font-size:16px;
+    padding: 3px 0px 15px 0px;
+    margin: 0px;
+}
+.thumnuc_thongtin_footer a{
+    color: #fff;
+}
+.thumnuc_thongtin_footer a:hover{
+    color: #1ed760;
+    text-decoration: none;
+}
+.thumnucdau_thongtin_footer {
+    margin: 20px 0px;
+    font-size:12px;
+    font-weight:900;
+    letter-spacing:0.96px;
+    line-height:16.8px;
+    color:rgb(145, 148, 150);
+    text-transform: uppercase;
+}
+.img_hinhanh {
+    margin: 0px 15px 0px 0px;
+}
+.footer2 {
+    font-size:12px;
+    font-weight:400;
+    line-height:18px;
+    color:rgb(145, 148, 150);
+    margin-top: 30px;
+}
+.vietnam {
+    display :flex;
+    justify-content: flex-end;
+}
+.vietnam p {
+    margin: 0px;
+}
+.vietnam a{
+    color:rgb(145, 148, 150);
+}
+.vietnam a:hover{
+    color: #1ed760;
+    text-decoration: none;
+}
+.footer_gioithieu{
+    display : flex;
+    justify-content: space-between;
+}
+.footer_gioithieu p {
+    margin: 12px 0px;
+}
+.footer_gioithieu a{
+    color:rgb(145, 148, 150);
+}
+.footer_gioithieu a:hover{
+    color: #1ed760;
+    text-decoration: none;
+}
+.left_footer_gioithieu {
+    display : flex;
+    padding: 0px 0px 0px 190px;
+}
+.left_footer_gioithieu p {
+    margin-right: 24px;
+}
+
+
+
+
+
