@@ -1,4 +1,7 @@
-
+* {
+  padding: 0;
+  margin : 0;
+}
    .brand {
      background-color: black;
      position : fixed;
@@ -6,7 +9,9 @@
      width: 100%;
      z-index: 1;
    }
-  
+  .taun {
+    background-color: red;
+  }
   .brandmain{
     display :flex;
     justify-content: space-between;
@@ -36,7 +41,7 @@
     padding: 0px;
   }
   .bodymain {
-    
+    /*padding: 0px 17px;*/
     margin-top: 80px;
   }
 
