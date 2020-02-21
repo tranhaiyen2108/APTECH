@@ -21,8 +21,8 @@
             </div>
             <div class='thongtinbrand'>
                 <p class='thongtin_brand'><a href='#'>Premium</a></p>
-                <p class='thongtin_brand'><a href='#' class="help">Trợ giúp</a></p>
-                <p class='thongtin_brand'><a href='#'>Tải xuống</a></p>
+                <p class='thongtin_brand'><a href='http://baitapnhom.herokuapp.com/trogiup.html' class="help">Trợ giúp</a></p>
+                <p class='thongtin_brand'><a href='http://baitapnhom.herokuapp.com/taixuong.html'>Tải xuống</a></p>
                 <p class='ngancachbrand'>|</p>
                 <p class='thongtin_brand'><a href='#'>Đăng ký</a></p>
                 <p class='thongtin_brand'><a href='#'>Đăng nhập</a></p>
@@ -37,10 +37,12 @@
             <div class="searchmain">
                 <div class="searchbox">
                     <h1>Chúng tôi có thể giúp bạn như thế nào?</h1>
-                    <form method="get" action="#">
-                        <input name="search" type="text" placeholder="Tìm kiếm"/>
-                        <button type="submit"><i class="fas fa-search"></i></button>
-                    </form>
+                    <div class="searchcontainer">
+                        <form method="get" action="#">
+                            <input name="search" type="text" placeholder="Tìm kiếm"/>
+                            <button type="submit"><i class="fas fa-search"></i></button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
@@ -50,30 +52,40 @@
         <div class="container">
             <a class="muiten" href="#account"><i class="fas fa-angle-double-down fa-2x"></i></a>
             <div class="accountmain">
-                <div class="categories">
-                    <div class="thongtin_account">
-                        <p class="thumucdau_thongtin_account">Tài khoản & Thanh toán</p>
-                        <p class="thumuc_thongtin_account"><a href="#">Trợ giúp tài khoản</a></p>
-                        <p class="thumuc_thongtin_account"><a href="#">Tùy chọn đăng ký</a></p>
-                        <p class="thumuc_thongtin_account"><a href="#">Quyền riêng tư & bảo mật</a></p>
-                    </div>
-                    <div class="thongtin_account">
-                        <p class="thumucdau_thongtin_account">Sử dụng Spotify</p>
-                        <p class="thumuc_thongtin_account"><a href="#">Bắt đầu</a></p>
-                        <p class="thumuc_thongtin_account"><a href="#">Danh sách phát</a></p>
-                        <p class="thumuc_thongtin_account"><a href="#">Tính năng</a></p>
-                        <p class="thumuc_thongtin_account"><a href="#">Hệ thống & Cài đặt</a></p>
-                        <p class="thumuc_thongtin_account"><a href="#">Xử lý sự cố</a></p>
-                    </div>
-                    <div class="thongtin_account">
-                        <p class="thumucdau_thongtin_account">Nghe ở mọi nơi</p>
-                        <p class="thumuc_thongtin_account"><a href="#">Loa</a></p>
-                        <p class="thumuc_thongtin_account"><a href="#">TV</a></p>
-                        <p class="thumuc_thongtin_account"><a href="#">Ô tô</a></p>
-                        <p class="thumuc_thongtin_account"><a href="#">Chơi game</a></p>
-                        <p class="thumuc_thongtin_account"><a href="#">Đồng hồ thông minh</a></p>
-                        <p class="thumuc_thongtin_account"><a href="#">Màn hình thông minh</a></p>
-                        <p class="thumuc_thongtin_account"><a href="#">Trợ lý Giọng nói</a></p>
+                <div class="col">
+                    <div class="row">
+                        <div class="categories">
+                            <h3>Tài khoản & Thanh toán</h3>
+                            <ul>
+                                <li><a href="#" class="m">Trợ giúp tài khoản</a></li>
+                                <li><a href="#" class="m">Trợ giúp thanh toán</a></li>
+                                <li><a href="#" class="m">Tùy chọn đăng ký</a></li>
+                                <li><a href="#" class="m">Quyền riêng tư & Bảo mật</a></li>
+                            </ul>
+                        </div>
+                        <div class="categories">
+                            <h3>Sử dụng Spotify</h3>
+                            <ul>
+                                <li><a href="#" class="m">Bắt đầu</a></li>
+                                <li><a href="#" class="m">Danh sách phát</a></li>
+                                <li><a href="#" class="m">Tính năng</a></li>
+                                <li><a href="#" class="m">Hệ thống & Cài đặt</a></li>
+                                <li><a href="#" class="m">Xử lý sự cố</a></li>
+                            </ul>
+                        </div>
+                        <div class="categories">
+                            <h3>Nghe ở mọi nơi</h3>
+                            <ul>
+                                <li><a href="#" class="m">Loa</a></li>
+                                <li><a href="#" class="m">TV</a></li>
+                                <li><a href="#" class="m">Ô tô</a></li>
+                                <li><a href="#" class="m">Chơi game</a></li>
+                                <li><a href="#" class="m">Đồng hồ thông minh</a></li>
+                                <li class="visible"><a href="#" class="m">Màn hình thông minh</a></li>
+                                <li class="visible"><a href="#" class="m">Trợ lí Giọng nói</a></li>
+                            </ul>
+                            <a href="#" class="showall hidden">Hiển thị tất cả</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -82,55 +94,83 @@
 
     <div class="community" id="community">
         <div class="container">
-            <a class="muiten" href="#community"><i class="fas fa-angle-double-down fa-2x"></i></a>
-            <h1>Truy cập cộng đồng</h1>
-            <p>Bạn có câu hỏi? Hãy tìm câu trả lời từ Cộng đồng các chuyên gia trên</p>
-            <p> toàn thế giới của chúng tôi!</p>
-            <a href="#" class="anwser">TÌM CÂU TRẢ LỜI</a>
+            <div class="communitymain">
+                <a class="muiten" href="#community"><i class="fas fa-angle-double-down fa-2x"></i></a>
+                <h1>Truy cập cộng đồng</h1>
+                <p>Bạn có câu hỏi? Hãy tìm câu trả lời từ Cộng đồng các chuyên gia trên <br>toàn thế giới của chúng tôi!</p>
+            </div>
+            <div class="md">
+                <a href="#" class="anwser">TÌM CÂU TRẢ LỜI</a>
+            </div>
         </div>
     </div>
 
     <div class="feature" id="feature">
         <div class="container">
             <a class="muiten" href="#feature"><i class="fas fa-angle-double-down fa-2x"></i></a>
-            <h1>Cách sử dụng các tính năng</h1>
-            <div class="left_feature">
-                <h2>BẮT ĐẦU</h2>
-                <h4>Tìm kiếm</h4>
-                <p>Tìm kiếm một bài hát, album, nghệ sĩ, hãng thu âm,</p>
-                <p>thể loại, tâm trạng, hoạt động, hoặc bạn bè trên</p>
-                <p>Spotify.</p>
-                <a href="#">ĐỌC THÊM</a>
-                <h3>Playlist</h3>
-                <p>Playlist giống như những bản tổng hợp bạn tạo trên</p>
-                <p>Spotify. Bạn có thể chia sẻ, theo dõi và kết hợp</p>
-                <p>playlist với bạn bè.</p>
-                <a href="#">ĐỌC THÊM</a>
-                <h3>Nghe Offline</h3>
-                <p>Phát nhạc ở khắp mọi nơi, kể cả không có internet!</p>
-                <p>Chỉ dành cho đăng ký Premium.</p>
-                <a href="#">ĐỌC THÊM</a>
-            </div>
-            <div class="right_feature">
-                <h2>VÀ XEM NHỮNG ĐIỀU NÀY</h2>
-                <h4>Radio</h4>
-                <p>Bật tới một trong nhiều đài phát của chúng tôi hoặc</p>
-                <p>tự tạo dựa trên nghệ sĩ, album hoặc bài hát yêu</p>
-                <p>thích của bạn.</p>
-                <a href="#">ĐỌC THÊM</a>
-                <h3>Khám phá Hàng tuần</h3>
-                <p>Tự hỏi mình tìm nhạc mới như thế nào? Hàng tuần,</p>
-                <p>Spotify tạo một playlist dựa trên sở thích của bạn, có</p>
-                <p>thể gồm những bài bạn chưa nghe bao giờ!</p>
-                <a href="#">ĐỌC THÊM</a>
-                <h3></h3>
-                <p>Phát Spotify trên dịch vụ yêu thích khác của bạn:</p>
-                <p>Chromecast.</p>
-                <a href="#">ĐỌC THÊM</a>
-                <h3>Chia sẻ</h3>
-                <p>Chia sẻ nhạc với bạn bè và khám phá họ đang nghe</p>
-                <p>gì.</p>
-                <a href="#">ĐỌC THÊM</a>
+            <h1 class="textcenter">Cách sử dụng các tính năng</h1>
+            <div class="featuremain">
+                <div class="featurebox">
+                    <div class="ctbox">
+                        <div class="ctboxcontainer">
+                            <h3>BẮT ĐẦU</h3>
+                        </div>
+                        <div class="ctboxcontainer">
+                            <h3>VÀ XEM NHỮNG ĐIỀU NÀY</h3>
+                        </div>
+                    </div>
+
+                    <div class="ctbox">
+                        <div class="ctboxcontainer">
+                            <h2>Tìm kiếm</h2>
+                            <p>Tìm kiếm một bài hát, album, nghệ sĩ, hãng thu âm, <br> thể loại, tâm trạng, hoạt động, hoặc bạn bè trên
+                                <br> Spotify.</p>
+                            <a href="#">ĐỌC THÊM</a>
+                        </div>
+                        <div class="ctboxcontainer">
+                            <h2>Radio</h2>
+                            <p>Bật tới một trong nhiều đài phát của chúng tôi hoặc <br> tự tạo dựa trên nghệ sĩ, album hoặc bài hát yêu
+                                <br> thích của bạn.</p>
+                            <a href="#">ĐỌC THÊM</a>
+                        </div>
+                    </div>
+
+                    <div class="ctbox">
+                        <div class="ctboxcontainer">
+                            <h2>Playlist</h2>
+                            <p>Playlist giống như những bản tổng hợp bạn tạo trên <br> Spotify. Bạn có thể chia sẻ, theo dõi và kết hợp
+                                <br> playlist với bạn bè.</p>
+                            <a href="#">ĐỌC THÊM</a>
+                        </div>
+                        <div class="ctboxcontainer">
+                            <h2>Khám phá Hàng tuần</h2>
+                            <p>Tự hỏi mình tìm nhạc mới như thế nào? Hàng tuần, <br> Spotify tạo một playlist dựa trên sở thích của bạn, có
+                                <br> thể gồm những bài bạn chưa nghe bao giờ!</p>
+                            <a href="#">ĐỌC THÊM</a>
+                        </div>
+                    </div>
+
+                    <div class="ctbox">
+                        <div class="ctboxcontainer">
+                            <h2>Nghe Offline</h2>
+                            <p>Phát nhạc ở khắp mọi nơi, kể cả không có internet! <br> Chỉ dành cho đăng ký Premium.</p>
+                            <a href="#">ĐỌC THÊM</a>
+                        </div>
+                        <div class="ctboxcontainer">
+                            <h2>Spotify trên Chromecast</h2>
+                            <p>Phát Spotify trên dịch vụ yêu thích khác của bạn: <br> Chromecast.</p>
+                            <a href="#">ĐỌC THÊM</a>
+                        </div>
+                    </div>
+
+                    <div class="ctbox">
+                        <div class="ctboxcontainer ctboxctn">
+                            <h2>Chia sẻ</h2>
+                            <p>Chia sẻ nhạc với bạn bè và khám phá họ đang nghe <br> gì.</p>
+                            <a href="#">ĐỌC THÊM</a>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </div>
@@ -139,12 +179,14 @@
     <div class="spotify" id="spotify">
         <div class="container">
             <a class="muiten" href="#spotify"><i class="fas fa-angle-double-down fa-2x"></i></a>
-            <h1>Vẫn chưa dùng Spotify?</h1>
-            <p>Hơn 30 triệu bản nhạc; hàng ngàn playlist tuyển chọn; Khám phá Hàng</p>
-            <p>tuần; Spotify Running; Radio; Chromecast, dàn âm thanh, ô-tô, TV, và</p>
-            <p>tích hợp PlayStation; tạo và chia sẻ playlist với bạn bè... Tất cả đã sẵn</p>
-            <p>sàng dành cho bạn.</p>
-            <a href="#" class="download">TẢI SPOTIFY</a>
+            <div class="sptf">
+                <h1>Vẫn chưa dùng Spotify?</h1>
+                <p>Hơn 30 triệu bản nhạc; hàng ngàn playlist tuyển chọn; Khám phá Hàng <br>tuần; Spotify Running; Radio; Chromecast, dàn âm thanh, ô-tô, TV, và
+                    <br>tích hợp PlayStation; tạo và chia sẻ playlist với bạn bè... Tất cả đã sẵn <br>sàng dành cho bạn. </p>
+                <div class="down">
+                    <a href="#" class="download">TẢI SPOTIFY</a>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -196,3 +238,7 @@
         </div>
     </div>
 </footer>
+
+
+</body>
+</html>
