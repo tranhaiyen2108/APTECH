@@ -5,7 +5,6 @@
 }
 .brand {
     background-color: black;
-    position : fixed;
     top: 0px;
     width: 100%;
     z-index: 1;
@@ -43,11 +42,6 @@
     color: white;
     padding: 0px;
 }
-.bodymain {
-
-    margin-top: 80px;
-}
-
 .thongtin_brand a {
     color: white;
     font-size:16px;
@@ -57,54 +51,59 @@
     font-style: normal;
     font-weight: bold;
 }
-
 .download{
-    background-color: #19e68c;
-    width: 100%;
-    height: 420.15px;
-    position: relative;
+    background-color: rgb(25, 230, 140);
+    height: 500.15px;
 }
-.download h1{
+.downmain{
+    margin: 0 auto;
+}
+.downcontent{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 200px;
+}
+.downtext h1{
+    padding: 0 0 32.16px;
+    font-size: 48px;
     color: #fff;
-    font-size: 40px;
+    line-height: 48px;
     font-weight: 700;
-    padding-top: 114px;
-    padding-left: 80px;
+    letter-spacing: -3px;
+    padding-bottom: 0.67em;
 }
-.download p{
-    line-height: 10px;
+.downtext p{
+    padding: 0 0 16px;
     font-size: 16px;
-    padding-top: 32.16px;
-    padding-left: 230px;
 }
-.download span{
-    line-height: 10px;
-    font-size: 16px;
-    padding-left: 200px;
+.downtext a{
+    color: white;
+    text-decoration: underline;
 }
-.download a{
-    border-bottom: 1px solid #fff;
-    color: #fff;
+.downtext a:hover{
+    color: #d4daca;
+    text-decoration: underline;
 }
-.download a:hover{
-    text-decoration: none;
-    border-bottom: 1px solid #d9d9d9;
-    color: #d9d9d9;
+.downcomputer{
+    position: relative;
+    margin: 15px;
+    float: right;
 }
-.download .laptop{
+.o{
     position: absolute;
-    top: 120px;
-    right: 330px;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-.download .o{
+.v{
     position: absolute;
-    top: 160px;
-    right: 421px;
-}
-.download .v{
-    position: absolute;
-    top: 184px;
-    right: 443px;
+    width: 8%;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .getit{
     background-color: #fff;
@@ -125,21 +124,29 @@
     font-weight: 470;
 }
 .getit .getit_img{
-    padding-left: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .getit .getit_img img{
-    padding-left: 15px;
+    padding-right: 20px;
+}
+.getitfrom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .device{
     width:100%;
     height: 417.24px;
     background-color: #222326;
-    position: relative;
 }
-.device img{
-    position: absolute;
-    top: 70px;
-    right: 540px;
+.device .devicemain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 20px;
 }
 .device h1{
     color: #fff;
@@ -161,9 +168,7 @@
     color: #1ed760;
 }
 .device a:hover{
-    text-decoration: none;
     color: #1ed760;
-    border-bottom: solid 1px #1ed760;
 }
 footer  {
     color: white;
