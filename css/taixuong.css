@@ -177,6 +177,9 @@
 .device a:hover{
     color: #1ed760;
 }
+.device a:active{
+    color: #1a7538;
+}
 footer  {
     color: white;
     background-color: black;
