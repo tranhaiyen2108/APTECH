@@ -5,10 +5,10 @@
 }
 .brand {
     background-color: black;
-
+    position : fixed;
     top: 0px;
     width: 100%;
-    z-index: 1;
+    z-index: 2;
 }
 
 .brandmain{
@@ -53,6 +53,10 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
+}
+.bodymain {
+    /*padding: 0px 17px;*/
+    margin-top: 80px;
 }
 .search{
     width: 100%;
@@ -132,7 +136,7 @@ input:focus::placeholder{
     float: left;
     padding-left: 15px;
     padding-top: 10px;
-    z-index: 2;
+    z-index: 1;
     color: #2d46b9;
     position: absolute;
     top:-25px;
@@ -243,7 +247,7 @@ input:focus::placeholder{
     float: left;
     padding-left: 15px;
     padding-top: 10px;
-    z-index: 2;
+    z-index: 1;
     color: #2d46b9;
     position: absolute;
     top:-25px;
@@ -311,7 +315,7 @@ input:focus::placeholder{
     float: left;
     padding-left: 15px;
     padding-top: 10px;
-    z-index: 2;
+    z-index: 1;
     color: #2d46b9;
     position: absolute;
     top:-25px;
@@ -400,7 +404,7 @@ input:focus::placeholder{
     float: left;
     padding-left: 15px;
     padding-top: 10px;
-    z-index: 2;
+    z-index: 1;
     color: #2d46b9;
     position: absolute;
     top:-25px;

@@ -5,6 +5,7 @@
 }
 .brand {
     background-color: black;
+    position : fixed;
     top: 0px;
     width: 100%;
     z-index: 1;
@@ -50,6 +51,12 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
+}
+.thongtin_brand .taixuong{
+    color: #1ed760!important;
+}
+.bodymain{
+    margin-top: 80px;
 }
 .download{
     background-color: rgb(25, 230, 140);
