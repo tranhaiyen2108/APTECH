@@ -4,11 +4,12 @@
     box-sizing: border-box;
 }
 .brand {
-    background-color: black;
     position : fixed;
     top: 0px;
     width: 100%;
     z-index: 2;
+    backdrop-filter: opacity(40%);
+    background-color: transparent;
 }
 
 .brandmain{
