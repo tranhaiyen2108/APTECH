@@ -4,16 +4,17 @@
     box-sizing: border-box;
 }
 .brand {
-    background-color: black;
+    position : fixed;
     top: 0px;
     width: 100%;
-    z-index: 1;
+    z-index: 2;
+    backdrop-filter: opacity(40%);
+    background-color: transparent;
 }
 
 .brandmain{
     display :flex;
     justify-content: space-between;
-
 }
 .imgbrand {
     /* float :left; */
@@ -53,19 +54,22 @@
     font-style: normal;
     font-weight: bold;
 }
+.bodymain {
+    /*padding: 0px 17px;*/
+    padding-top: 80px;
+    background-color: black;
+}
 .search{
     width: 100%;
-    height: 313.2px;
+    height: 353.2px;
     background-image: url("https://s3.envato.com/files/220812629/preview_image.jpg");
     background-size: cover;
 }
 .search .container{
-    padding: 80px 8px 0;
-    margin-right: auto;
-    margin-left: auto;
+    padding: 80px 0px 0px;
 }
 .searchmain{
-    margin: 0 -8px 0;
+    margin: 0 -8px;
     margin-left: 16.66666667%;
     width: 66.66666667%;
 }
@@ -80,13 +84,16 @@
     margin-top: 10px;
     text-align: center;
 }
-input{
+.searchcontainer{
+    height: 78px;
+}
+input[type=text][name=search]{
     background-color: #fff;
     border: 0;
     color: #000;
     font-weight: 500;
     width: 100%;
-    height: 55px;
+    height: 53px;
     font:18px;
     border-radius: 10px;
     padding:6px 20px;
@@ -119,6 +126,7 @@ input:focus::placeholder{
     height: 430.6px;
     background-color: #efefef;
     position: relative;
+    padding: 0 0 40px;
 }
 .account .muiten{
     width: 52px;
@@ -129,53 +137,107 @@ input:focus::placeholder{
     float: left;
     padding-left: 15px;
     padding-top: 10px;
-    z-index: 2;
+    z-index: 1;
     color: #2d46b9;
     position: absolute;
     top:-25px;
     transition: all .3s ease-in-out;
 }
-.muiten:hover{
+.account .muiten:hover{
     color: #1e3264;
     transform: scale(1.2);
 }
+.account .container{
+    height: 100%;
+}
 .accountmain{
-    margin: 0 -8px 0;
-    margin-left: 5%;
-    display :flex;
+    margin: 0 -8px;
+    height: 100%;
+}
+.col{
+    margin-left: 8.3333333%;
+    width: 70%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.row{
+    margin-top: 60px;
+    margin-left: -8px;
+    margin-right: -8px;
+
 }
 .categories{
-    padding: 60px;
-    width: 100%;
-    display :flex;
+    float: left;
+    width: 28%;
 }
-.thongtin_account{
-    width:33.33%;
-}
-.thumuc_thongtin_account{
-    line-height: 20px;
-}
-.thumuc_thongtin_account a{
-    font-weight: 700;
-    color: #2d46b9;
-    font-size: 18px;
-}
-.thumuc_thongtin_account a:hover{
-    color: #1e3264;
-    text-decoration: none;
-}
-.thumucdau_thongtin_account{
+.categories h3{
+    color: #222326;
     font-size: 24px;
-    color: black;
+    border-bottom: 0;
+    background-color: transparent;
     font-weight: 700;
-    padding-bottom: 20px;
+    padding: 0;
+    margin: 0;
 }
-
+.categories ul{
+    padding-top: 30px;
+    display: block;
+    max-height: none;
+    transition: max-height .2s;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+.categories .m{
+    font-weight: 700;
+    line-height: 20px;
+    padding: 0 0 12px;
+    border: 0!important;
+    display: block;
+    list-style: none;
+    font-size: 18px;
+    color: #2d46b9;
+}
+.categories .m:hover{
+    text-decoration: none;
+    color: #1e3264;
+}
+.categories .m:active{
+    text-decoration: none;
+    color: #2d46b9;
+}
+.visible{
+    display: none!important;
+}
+.categories .showall{
+    display: inline-block;
+    margin: 10px 0 30px;
+    border-bottom: 1px solid #000;
+    color: #000;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: .1em;
+    line-height: 24px;
+}
+.categories .showall:hover{
+    text-decoration: none;
+    color: #1e3264;
+}
+.categories .showall:active{
+    text-decoration: none;
+    color: #2d46b9;
+}
 .community{
     background-color: #fff;
     position: relative;
     width: 100%;
     height: 477.4px;
+}
+.community .container{
+    height: 100%;
 }
 .community .muiten{
     width: 52px;
@@ -186,38 +248,51 @@ input:focus::placeholder{
     float: left;
     padding-left: 15px;
     padding-top: 10px;
-    z-index: 2;
+    z-index: 1;
     color: #2d46b9;
     position: absolute;
     top:-25px;
     transition: all .3s ease-in-out;
 }
-.community h1{
+.community .muiten:hover{
+    color: #1e3264;
+    transform: scale(1.2);
+}
+.communitymain{
+    height: 348.8px;
+    margin: 0 -8px;
+}
+.communitymain h1{
     padding: 100px 0 30px;
     text-align: center;
     font-size: 60px;
     line-height: 58px;
     font-weight: 700;
+    letter-spacing: -.04em;
 }
-.community p{
+.communitymain p{
     text-align: center;
-    line-height: 10px;
+    line-height: 25px;
     font-size: 18px;
+    margin: 9px 0 50px;
+    font-weight: 400;
+}
+.md{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .community .anwser{
     background-color: #2d46b9;
     width: 245.26px;
     height: 47.6px;
-    float: left;
-    margin-left: 39%;
     text-align: center;
     color: white;
     font-size: 14px;
     font-weight: 700;
-    padding-right: 5px;
-    padding-top: 12px;
+    padding: 16px 48px 18px;
     border-radius: 30px;
-    margin-top: 80px;
+    margin: 0 10px 45px;
 }
 .community .anwser:hover{
     background-color: #1e3264;
@@ -227,7 +302,10 @@ input:focus::placeholder{
     background-color: #f54a3a;
     position: relative;
     width: 100%;
-    height: 1220.8px;
+    height: 1520.8px;
+}
+.feature .container{
+    height: 100%;
 }
 .feature .muiten{
     width: 52px;
@@ -238,75 +316,82 @@ input:focus::placeholder{
     float: left;
     padding-left: 15px;
     padding-top: 10px;
-    z-index: 2;
+    z-index: 1;
     color: #2d46b9;
     position: absolute;
     top:-25px;
     transition: all .3s ease-in-out;
 }
-.feature h1{
+.feature .muiten:hover{
+    color: #1e3264;
+    transform: scale(1.2);
+}
+.featuremain{
+    margin-left: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.feature .textcenter{
     color: #fff;
-    padding: 100px 114px 75px;
+    padding-top: 100px;
+    margin-bottom: 75px;
     text-align: center;
     font-weight: 700;
     font-size: 60px;
     line-height: 58px;
     letter-spacing: -.03em;
 }
-.feature h2{
-    font-size: 18px;
-    color: #fff;
-    line-height: 40px;
-    border-bottom: 1px solid #fff;
-    font-weight: 400;
+.feature .ctboxcontainer{
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 50%;
+    float: left;
 }
 .feature h3{
-    font-size: 28px;
-    padding-top: 16px;
-    margin-bottom: 13px;
     color: #fff;
     font-weight: 400;
-    margin-top: 50px;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: .1em;
+    border-bottom: 1px solid hsla(0,0%,100%,.5);
+    padding: 24px 0 9px;
+    margin-bottom: 35px;
 }
-.feature h4{
+.feature h2{
+    margin: 0 0 13px;
     font-size: 28px;
-    padding-top: 16px;
-    margin-bottom: 13px;
+    font-weight: 500;
     color: #fff;
-    font-weight: 400;
+    letter-spacing: -.02em;
 }
 .feature p{
-    padding-right: 20px;
+    margin: 9px 0 18px;
+    padding: 0 26px 0 0;
+    font-weight: 400;
     color: #fff;
-    line-height: 10px;
+    display: block;
     font-size: 18px;
-    margin: 9px 0px 18px;
 }
 .feature a{
-    color: white;
-    font-size: 18px;
+    margin-bottom: 50px;
+    color: #fff;
+    display: inline-block;
+    letter-spacing: .1em;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
     border-bottom: 1px solid #fff;
 }
 .feature a:hover{
     text-decoration: none;
-    color: black;
-    border-bottom: 1px solid black;
-}
-.left_feature{
-    width:40%;
-    float: left;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-.right_feature{
-    width: 40%;
-    float: left;
+    color: #1e3264;
+    border-bottom: 1px solid #1e3264;
 }
 
-
-
-
-
+.ctboxctn{
+    float: right!important;
+}
 .spotify{
     background-color: #efefef;
     position: relative;
@@ -322,30 +407,42 @@ input:focus::placeholder{
     float: left;
     padding-left: 15px;
     padding-top: 10px;
-    z-index: 2;
+    z-index: 1;
     color: #2d46b9;
     position: absolute;
     top:-25px;
     transition: all .3s ease-in-out;
 }
-.spotify h1{
-    padding: 100px 0 30px;
+.spotify .muiten:hover{
+    color: #1e3264;
+    transform: scale(1.2);
+}
+.sptf{
+    margin: 0 -8px;
+    padding: 84px 0px;
+}
+.sptf h1{
+    margin: 16px 0 30px;
     text-align: center;
     font-size: 60px;
     line-height: 58px;
     font-weight: 700;
 }
-.spotify p{
+.sptf p{
     text-align: center;
-    line-height: 10px;
+    line-height: 25px;
     font-size: 18px;
+}
+.down{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .spotify .download{
     background-color: #2d46b9;
     width: 204.35px;
     height: 47.6px;
     float: left;
-    margin-left: 40%;
     text-align: center;
     color: white;
     font-size: 14px;
