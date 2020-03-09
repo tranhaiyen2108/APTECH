@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f381bb8a-2076-48fb-bf22-e36940f1345f" name="Default Changelist" comment="" />
+    <list default="true" id="f381bb8a-2076-48fb-bf22-e36940f1345f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/baitapnhom/imgs/spotifyIcon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baitapnhom/css/taixuong.css" beforeDir="false" afterPath="$PROJECT_DIR$/baitapnhom/css/taixuong.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baitapnhom/css/trogiup.css" beforeDir="false" afterPath="$PROJECT_DIR$/baitapnhom/css/trogiup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baitapnhom/taixuong.html" beforeDir="false" afterPath="$PROJECT_DIR$/baitapnhom/taixuong.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baitapnhom/trogiup.html" beforeDir="false" afterPath="$PROJECT_DIR$/baitapnhom/trogiup.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="New folder (5)" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -20,7 +30,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../APTECH/project/haiyent1911e" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/baitapnhom/imgs" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\New folder (5)\baitapnhom\imgs" />
+    </key>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -47,6 +62,10 @@
       <workItem from="1582826084901" duration="51000" />
       <workItem from="1582826167673" duration="21000" />
       <workItem from="1582826189770" duration="369000" />
+      <workItem from="1583725523300" duration="271000" />
+      <workItem from="1583725808599" duration="94000" />
+      <workItem from="1583726013206" duration="2000" />
+      <workItem from="1583726638763" duration="893000" />
     </task>
     <servers />
   </component>
