@@ -8,19 +8,19 @@
     display: flex;
     flex-direction: column
 }
-@media (min-width: 992px){
-    .backGround{
-        background-image: url("../imgs/HomPageBackground.jpg");
-        background-repeat: no-repeat;
-        background-position:center center;
-        background-size: cover;
-        width: 100%;
+@media (min-width: 992px) {
+    .backGround {
+        background: url("https://campaigns-test.scdn.co/images/premium_dancer.png")  no-repeat, url('../imgs/premium.jpg') repeat;
+        background-size: 450px, cover;
+        background-position: right bottom, left top;
+        /*background: url(img_flwr.gif) right bottom no-repeat, url(paper.gif) left top repeat;*/
+        position: relative;
     }
 }
 @media (min-width: 992px){
     .brand {
-        background-color: rgba(0, 0, 0, 0.6);
         position : relative;
+        background-color: black;
         top: 0;
         width: 100%;
         z-index: 2;
@@ -72,7 +72,7 @@
 .bodyMain {
     width: 100%;
     padding-top: 5%;
-    padding-bottom: 20%;
+    padding-bottom: 2%;
 }
 .bodyMain .homeTitle{
     width: 1000px;
@@ -80,31 +80,33 @@
     text-align: center;
     padding: 200px 20px 50px 20px;
 }
-.bodyMain .homeTitle .text {
-    line-height: 1.15;
+.text {
+    line-height: 2;
     margin-top: 0;
-    color: white;
+    color: black;
     display: block;
+    text-align: center;
 }
-.bodyMain .homeTitle h1{
+h1{
     font-size: 60px;
     font-weight: 900;
     letter-spacing: 2pt;
-    line-height: 1.15;
+    line-height: 2;
 }
 .bodyMain .homeTitle h5{
     padding-top: 30px;
-    font-size: 14pt;
-    font-weight: lighter;
+    font-size: 18pt;
+    font-weight: bold;
     letter-spacing: -0.04em;
 }
+
 .downloadButton{
     margin: 0 auto;
-    width: 28%;
+    width: 15.5%;
     padding-bottom: 200px;
 }
 
-.downloadButton button{
+.container button{
     border-radius: 30px;
     display: inline-block;
     font-weight: 700;
@@ -128,6 +130,105 @@
     white-space: normal;
     letter-spacing: 1.5pt;
 
+}
+.reasonForUse .titleArticle{
+    text-align: center;
+    padding: 3%;
+}
+@media (min-width: 1200px) {
+    .articleList {
+        flex-wrap: nowrap;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+    }
+}
+.articleList {
+    display: flex;
+}
+@media (min-width: 1000px){
+    .articleList .articleListItemContent img{
+         vertical-align: top;
+         display: block;
+         width: 200px;
+     }
+}
+@media (min-width: 768px){
+    .articleList .articleListItemContent img{
+    flex-grow: 1;
+    }
+}
+.articleList .articleListItemContent img{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.reasonForUse{
+    padding: 5% 0 2% 0;
+}
+@media (min-width: 768px){
+    .halfScreen{
+        width: 100%;
+    }
+}
+@media (min-width: 1000px){
+    .halfScreen{
+        width: 50%;
+    }
+}
+.halfScreen .planOption{
+    width: 70%;
+    margin: 0 auto;
+}
+.planOption header{
+    text-align: center;
+    font-size: 16pt;
+    padding: 20px;
+}
+.planOption .plan{
+    border: 1px solid lightgrey;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 0 auto;
+    height:500px;
+    position: relative;
+}
+.planOption .plan .text {
+    display: inline-block;
+    text-align: left;
+}
+.planOption .plan .text span{
+    border-radius: 10px;
+    padding: 4px 10px;
+    background-color: rgb(63, 158, 215);
+    border: 1px solid rgb(63, 122, 180);
+    color: white;
+    margin-bottom: 10%;
+}
+/*làm tiepsep từ chô này*/
+.paymentMethod{
+    padding-bottom: 20%;
+}
+.paymentMethod img{
+    width: 100%;
+    padding-bottom: 4%;
+}
+.creditcard img{
+    width: 80%;
+}
+
+.planButton{
+    background-color: white;
+    position: absolute;
+    bottom:24%;
+    left:27%;
+}
+.paymentMethod select{
+    border-radius: 10px;
+    padding: 2%;
+}
+.plan .termAndCondition{
+    position: absolute;
+    bottom:3%;
 }
 footer  {
     color: white;
