@@ -1,1 +1,1 @@
-<?php include_once("taixuong.html");
+<?php include_once("home_page.html");
