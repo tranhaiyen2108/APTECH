@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dangki</title>
+    <link rel="stylesheet" href="dangki.css">
+</head>
+<body>
+<div id="maina">
+    <div id="logo">
+        <a href="#">
+            <img src="spotify-logo-png-10069.png">
+        </a>
+    </div>
+</div>
+<div id="duoi">
+    <a href="https://www.facebook.com/v2.2/dialog/oauth?app_id=174829003346&cbt=1583843878376&channel_url=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D46%23cb%3Df1eeeb8e2937f2c%26domain%3Dwww.spotify.com%26origin%3Dhttps%253A%252F%252Fwww.spotify.com%252Ff3168ec3f0f2528%26relation%3Dopener&client_id=174829003346&display=popup&domain=www.spotify.com&e2e=%7B%7D&fallback_redirect_uri=https%3A%2F%2Fwww.spotify.com%2Fvn-vi%2Fsignup%2F&locale=en_US&logger_id=f1a26cfc4fb80f8&origin=1&redirect_uri=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D46%23cb%3Df3ba607c92b3ff%26domain%3Dwww.spotify.com%26origin%3Dhttps%253A%252F%252Fwww.spotify.com%252Ff3168ec3f0f2528%26relation%3Dopener%26frame%3Df515586b4c548&response_type=token%2Csigned_request%2Cgraph_domain&scope=email%2Cuser_birthday%2Cpublic_profile%2Cuser_friends&sdk=joey&version=v2.2"><h6 class="face"><span><b>ĐĂNG KÝ BẰNG </br> FACEBOOK</b></span></h6></a>
+    <p>hoặc</p>
+    <p>Đăng ký bằng địa chỉ email của bạn</p>
+    <section class="section">
+        <div class="container">
+            <form action="action_page.php">
+                <div id="giua">
+                    <input type="email" id="register-email" name="signup_form[email]" required="required" maxlength="100"
+                           placeholder="Email" data-msg-email="Địa chỉ email bạn nhập không hợp lệ." data-msg-remote="Chúng
+                            tôi rất tiếc, email đó đã được sử dụng." data-msg-required="Vui lòng nhập email của bạn." data-rule-remote="/vn-vi/xhr/json/isEmailAvailable.php">
+                    <input type="email" id="register-confirm-email" name="signup_form[confirm_email]" required="required"
+                           maxlength="100" placeholder="Xác nhận email" data-msg-email="Địa chỉ email bạn nhập không hợp lệ."
+                           data-msg-equalto="Địa chỉ email không khớp." data-msg-required="Vui lòng nhập email của bạn." data-rule-equalto="#register-email">
+                    <input type="password" id="register-password" name="signup_form[password]" required="required" autocomplete="off" maxlength="100" placeholder="Mật khẩu"
+                           data-msg-maxlength="Mật khẩu của bạn quá dài." data-msg-minlength="Mật khẩu quá ngắn." data-msg-required="Nhập mật khẩu để tiếp tục." data-rule-maxlength="100" data-rule-minlength="8">
+                    <input type="text" id="register-displayname" name="signup_form[displayname]" required="required" autocapitalize="off"
+                           autocorrect="off" autocomplete="off" maxlength="30" placeholder="Chúng tôi nên gọi bạn bằng gì?" data-msg-required="Chúng tôi nên gọi bạn bằng gì?">
+                </div>
+                Ngày sinh:
+                <div class="regi">
+                    <input type="number" id="register-dob-day" name="signup_form[dob_day]" required="required" max="31"
+                           maxlength="2" min="1" pattern="[0-9]*" placeholder="ngày" class="dob" data-msg-required="Vui lòng nhập ngày hợp lệ trong tháng." data-msg-number="Vui lòng nhập ngày hợp lệ trong tháng." data-msg-min="Vui lòng nhập ngày hợp lệ trong tháng." data-msg-max="Vui lòng nhập ngày hợp lệ trong tháng." data-msg-maxlength="Vui lòng nhập ngày hợp lệ trong tháng.">
+                <select class="nhom2" name="Tháng" >
+                    <option value="T1">Tháng 1</option>
+                    <option value="T2">Tháng 2</option>
+                    <option value="T3">Tháng 3</option>
+                    <option value="T4">Tháng 4</option>
+                    <option value="T5">Tháng 5</option>
+                    <option value="T6">Tháng 6</option>
+                    <option value="T7">Tháng 7</option>
+                    <option value="T8">Tháng 8</option>
+                    <option value="T9">Tháng 9</option>
+                    <option value="T10">Tháng 10</option>
+                    <option value="T11">Tháng 11</option>
+                    <option value="T12">Tháng 12</option>
+                </select>
+                    <input type="number" id="register-dob-year" name="signup_form[dob_year]" required="required" min="1900"
+                           max="2007" maxlength="4" pattern="[0-9]*" placeholder="năm" class="dob" data-msg-required="Vui lòng nhập năm hợp lệ." data-msg-number="Vui lòng nhập năm hợp lệ." data-msg-min="Vui lòng nhập năm hợp lệ." data-msg-max="Rất tiếc, nhưng bạn không đủ tuổi quy định của Spotify." data-msg-maxlength="Vui lòng nhập năm hợp lệ.">
+                </div>
+                <div id="duoi1">
+                    <label><input type="radio" name="condition"/>Nam</label>
+                    <label><input type="radio" name="condition"/>Nữ</label>
+                    <label><input type="radio" name="condition"/>Giới tính trung lập</label>
+                    <br><label><input type="checkbox" name="condition"/>Chia sẻ dữ liệu đăng kí
+                    của tôi với các nhà cung cấp Spotify cho mục đích tiếp thị</label>
+                </div>
+                <div class="chu"><p>Bằng cách nhấp vào Đăng ký, bạn đồng ý với <a href="https://www.spotify.com/vn-vi/legal/end-user-agreement/">Điều khoản và Điều kiện Sử dụng</a> của Spotify.</p>
+                    <p>Để tìm hiểu thêm về cách thức Spotify thu thập, sử dụng, chia sẻ và bảo vệ dữ liệu cá nhân của bạn, vui lòng đọc
+                        <a href="https://www.spotify.com/vn-vi/legal/privacy-policy/">Chính sách Quyền riêng tư của Spotify.</a></p>
+                </div>
+                <a href="#" id="register-button-email-submit" class="btn btn-green btn-block js-signup-email-submit">
+                    Đăng ký
+                </a>
+                <p>Bạn đã có tài khoản? <a href="#">Đăng nhập</a></p>
+            </form>
+            </div>
+    </section>
+    </div>
+</body>
+</html>

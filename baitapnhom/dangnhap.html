@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dangnhap</title>
+    <link rel="stylesheet" href="dangnhap.css">
+</head>
+<body>
+<div id="maina">
+    <div id="logo">
+        <a href="#">
+            <img src="spotify-logo-png-10069.png">
+        </a>
+    </div>
+</div>
+
+<div id="duoi">
+    <p>Để tiếp tục, hãy đăng nhập vào Spotify.</p>
+    <a href="https://www.facebook.com/v2.2/dialog/oauth?app_id=174829003346&cbt=1583843878376&channel_url=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D46%23cb%3Df1eeeb8e2937f2c%26domain%3Dwww.spotify.com%26origin%3Dhttps%253A%252F%252Fwww.spotify.com%252Ff3168ec3f0f2528%26relation%3Dopener&client_id=174829003346&display=popup&domain=www.spotify.com&e2e=%7B%7D&fallback_redirect_uri=https%3A%2F%2Fwww.spotify.com%2Fvn-vi%2Fsignup%2F&locale=en_US&logger_id=f1a26cfc4fb80f8&origin=1&redirect_uri=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D46%23cb%3Df3ba607c92b3ff%26domain%3Dwww.spotify.com%26origin%3Dhttps%253A%252F%252Fwww.spotify.com%252Ff3168ec3f0f2528%26relation%3Dopener%26frame%3Df515586b4c548&response_type=token%2Csigned_request%2Cgraph_domain&scope=email%2Cuser_birthday%2Cpublic_profile%2Cuser_friends&sdk=joey&version=v2.2"><h6 class="face"><span><b>TIẾP TỤC VỚI FACEBOOK</b></span></h6></a>
+    <a href="https://appleid.apple.com/auth/authorize?client_id=com.spotify.accounts&response_type=code&response_mode=form_post&scope=name%20email&state=AQBORBhmKnLDovXCQPOKIxBUY0Ibw6bFvmfDwZcQAZIgK7tzm2OdDWcjo%2FIIXSx26iT4WmV4Nx4KHNvloDRYqDXwxz%2FNnph4cwqc5vVfwSdmzD8%3D&redirect_uri=https%3A%2F%2Faccounts.spotify.com%2Foauth%2Fapple%2Fredirect"><h6 class="apple"><span><b>TIẾP TỤC VỚI APPLE</b></span></h6></a>
+    <p>hoặc</p>
+    <section class="section">
+        <div class="container">
+            <form action="action_page.php">
+                <div id="giua">
+                    <input type="email" id="register-email" name="signup_form[email]" required="required" maxlength="100"
+                           placeholder="Địa chỉ email hoặc tên người dùng" data-msg-email="Địa chỉ email bạn nhập không hợp lệ." data-msg-remote="Chúng
+                            tôi rất tiếc, email đó đã được sử dụng." data-msg-required="Vui lòng nhập email của bạn." data-rule-remote="/vn-vi/xhr/json/isEmailAvailable.php">
+                    <input type="password" id="register-password" name="signup_form[password]" required="required" autocomplete="off" maxlength="100" placeholder="Mật khẩu"
+                           data-msg-maxlength="Mật khẩu của bạn quá dài." data-msg-minlength="Mật khẩu quá ngắn." data-msg-required="Nhập mật khẩu để tiếp tục." data-rule-maxlength="100" data-rule-minlength="8">
+                </div>
+               <div id="duoi1">
+                    <br><label><input type="checkbox" name="condition"/>Hãy nhớ tôi</label>
+                </div>
+
+                <a href="#" id="register-button-email-submit" class="btn btn-green btn-block js-signup-email-submit">
+                    Đăng nhập
+                </a>
+                <p><a href="https://www.spotify.com/vn-vi/password-reset/">Quên mật khẩu của bạn?</a></p>
+                <div class="dangki">
+                    <p>Bạn chưa có tài khoản?</p>
+                    <a href=""><h6><span><b>Đăng ký SPOTIFY</b></span></h6></a>
+                </div>
+                <div class="dieu"><p>Nếu bạn nhấp vào "Đăng nhập bằng Facebook" và không phải là người dùng Spotify, bạn sẽ phải đăng ký và chấp thuận
+                    <a href="https://www.spotify.com/vn-vi/legal/end-user-agreement/plain/">các Điều khoản & Điều kiện</a> và
+                    <a href="https://www.spotify.com/vn-vi/legal/privacy-policy/plain/">Chính sách Quyền riêng tư của Spotify.</a></p></div>
+            </form>
+        </div>
+    </section>
+</div>
+</body>
+</html>
