@@ -1,22 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
-    <title>Dangki</title>
+    <title>Dangky</title>
     <link rel="stylesheet" href="css/dangki.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./libra/font/css/all.css" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
 </head>
 <body>
 <div id="maina">
-    <div id="logo">
-        <a href="#">
-            <img src="imgs/spotify-logo-png-10069.png">
-        </a>
+</div>
+<div class='brand'>
+    <div class='container'>
+        <div class='brandmain'>
+            <div class='imgbrand'>
+                <a href='http://baitapnhom.herokuapp.com/home_page.html'><img src='imgs/spotifyIcon.png' width='132px' height='40px'/></a>
+            </div>
+            <div class='thongtinbrand'>
+                <p class='thongtin_brand'><a href='http://baitapnhom.herokuapp.com/premium.html'>Premium</a></p>
+                <p class='thongtin_brand'><a href='http://baitapnhom.herokuapp.com/trogiup.html' >Trợ giúp</a></p>
+                <p class='thongtin_brand'><a href='http://baitapnhom.herokuapp.com/taixuong.html'>Tải xuống</a></p>
+                <p class='ngancachbrand'>|</p>
+                <p class='thongtin_brand'><a href='http://baitapnhom.herokuapp.com/dangky.html' class="help">Đăng ký</a></p>
+                <p class='thongtin_brand'><a href='http://baitapnhom.herokuapp.com/dangnhap.html' >Đăng nhập</a></p>
+            </div>
+        </div>
     </div>
 </div>
 <div id="duoi">
-    <a href="https://www.facebook.com/v2.2/dialog/oauth?app_id=174829003346&cbt=1583843878376&channel_url=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D46%23cb%3Df1eeeb8e2937f2c%26domain%3Dwww.spotify.com%26origin%3Dhttps%253A%252F%252Fwww.spotify.com%252Ff3168ec3f0f2528%26relation%3Dopener&client_id=174829003346&display=popup&domain=www.spotify.com&e2e=%7B%7D&fallback_redirect_uri=https%3A%2F%2Fwww.spotify.com%2Fvn-vi%2Fsignup%2F&locale=en_US&logger_id=f1a26cfc4fb80f8&origin=1&redirect_uri=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D46%23cb%3Df3ba607c92b3ff%26domain%3Dwww.spotify.com%26origin%3Dhttps%253A%252F%252Fwww.spotify.com%252Ff3168ec3f0f2528%26relation%3Dopener%26frame%3Df515586b4c548&response_type=token%2Csigned_request%2Cgraph_domain&scope=email%2Cuser_birthday%2Cpublic_profile%2Cuser_friends&sdk=joey&version=v2.2"><h6 class="face"><span><b>ĐĂNG KÝ BẰNG </br> FACEBOOK</b></span></h6></a>
-    <p>hoặc</p>
-    <p>Đăng ký bằng địa chỉ email của bạn</p>
+    <a href="https://www.facebook.com/v2.2/dialog/oauth?app_id=174829003346&cbt=1583843878376&channel_url=https%3A%2F%2F
+    staticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D46%23cb%3Df1eeeb8e2937f2c%26domain%3Dwww.spotify.com%26o
+    rigin%3Dhttps%253A%252F%252Fwww.spotify.com%252Ff3168ec3f0f2528%26relation%3Dopener&client_id=174829003346&display=p
+    opup&domain=www.spotify.com&e2e=%7B%7D&fallback_redirect_uri=https%3A%2F%2Fwww.spotify.com%2Fvn-vi%2Fsignup%2F&locale=e
+    n_US&logger_id=f1a26cfc4fb80f8&origin=1&redirect_uri=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3F
+    version%3D46%23cb%3Df3ba607c92b3ff%26domain%3Dwww.spotify.com%26origin%3Dhttps%253A%252F%252Fwww.spotify.com%252Ff3168e
+    c3f0f2528%26relation%3Dopener%26frame%3Df515586b4c548&response_type=token%2Csigned_request%2Cgraph_domain&scope=email%2Cu
+    ser_birthday%2Cpublic_profile%2Cuser_friends&sdk=joey&version=v2.2"><h6 class="face"><span><b>ĐĂNG KÝ BẰNG </br> FACEBOOK</b></span></h6></a>
+    <p class="chu1">hoặc</p>
+    <p class="chu1">Đăng ký bằng địa chỉ email của bạn</p>
     <section class="section">
         <div class="container">
             <form action="action_page.php">
@@ -36,7 +61,8 @@
                 <div class="regi">
                     <input type="number" id="register-dob-day" name="signup_form[dob_day]" required="required" max="31"
                            maxlength="2" min="1" pattern="[0-9]*" placeholder="ngày" class="dob" data-msg-required="Vui lòng nhập ngày hợp lệ trong tháng." data-msg-number="Vui lòng nhập ngày hợp lệ trong tháng." data-msg-min="Vui lòng nhập ngày hợp lệ trong tháng." data-msg-max="Vui lòng nhập ngày hợp lệ trong tháng." data-msg-maxlength="Vui lòng nhập ngày hợp lệ trong tháng.">
-                <select class="nhom2" name="Tháng" >
+                <select class="nhom2" name="Tháng"  >
+                    <option value="T">Tháng</option>
                     <option value="T1">Tháng 1</option>
                     <option value="T2">Tháng 2</option>
                     <option value="T3">Tháng 3</option>
@@ -54,20 +80,19 @@
                            max="2007" maxlength="4" pattern="[0-9]*" placeholder="năm" class="dob" data-msg-required="Vui lòng nhập năm hợp lệ." data-msg-number="Vui lòng nhập năm hợp lệ." data-msg-min="Vui lòng nhập năm hợp lệ." data-msg-max="Rất tiếc, nhưng bạn không đủ tuổi quy định của Spotify." data-msg-maxlength="Vui lòng nhập năm hợp lệ.">
                 </div>
                 <div id="duoi1">
-                    <label><input type="radio" name="condition"/>Nam</label>
-                    <label><input type="radio" name="condition"/>Nữ</label>
-                    <label><input type="radio" name="condition"/>Giới tính trung lập</label>
-                    <br><label><input type="checkbox" name="condition"/>Chia sẻ dữ liệu đăng kí
+                    <label><input type="radio" name="condition"/> Nam</label>
+                    <label class="duoi12"><input type="radio" name="condition"/> Nữ</label>
+                    <label class="duoi13"><input type="radio" name="condition"/> Giới tính trung lập</label>
+                    <br><label><input type="checkbox" name="condition"/> Chia sẻ dữ liệu đăng kí
                     của tôi với các nhà cung cấp Spotify cho mục đích tiếp thị</label>
                 </div>
-                <div class="chu"><p>Bằng cách nhấp vào Đăng ký, bạn đồng ý với <a href="https://www.spotify.com/vn-vi/legal/end-user-agreement/">Điều khoản và Điều kiện Sử dụng</a> của Spotify.</p>
-                    <p>Để tìm hiểu thêm về cách thức Spotify thu thập, sử dụng, chia sẻ và bảo vệ dữ liệu cá nhân của bạn, vui lòng đọc
+                <br class="chu">
+                <p class="chu2">Bằng cách nhấp vào Đăng ký, bạn đồng ý với <a href="https://www.spotify.com/vn-vi/legal/end-user-agreement/">Điều khoản và Điều kiện Sử dụng</a> của Spotify.</br>
+                    Để tìm hiểu thêm về cách thức Spotify thu thập, sử dụng, chia sẻ và bảo vệ dữ liệu cá nhân của bạn, vui lòng đọc
                         <a href="https://www.spotify.com/vn-vi/legal/privacy-policy/">Chính sách Quyền riêng tư của Spotify.</a></p>
                 </div>
-                <a href="#" id="register-button-email-submit" class="btn btn-green btn-block js-signup-email-submit">
-                    Đăng ký
-                </a>
-                <p>Bạn đã có tài khoản? <a href="#">Đăng nhập</a></p>
+                <button type="submit" class="register-button-email-submit">Đăng Ký</button>
+                <p class="chu3">Bạn đã có tài khoản? <a href="http://baitapnhom.herokuapp.com/dangnhap.html">Đăng nhập</a></p>
             </form>
             </div>
     </section>

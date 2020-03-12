@@ -1,12 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.brand {
+    position : fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 2;
+    backdrop-filter: opacity(0%);
+    background-color: transparent;
+    height: 80px;
+    border-bottom: 1px solid #88898c;
+}
+
+.brandmain{
+    display :flex;
+    justify-content: space-between;
+}
+.imgbrand {
+    /* float :left; */
+    display : flex;
+    align-items: center;
+    width: 30%;
+}
+.thongtinbrand {
+    /* float : right; */
+    display: flex;
+    justify-content: flex-end;
+    width: 70%;
+}
+.thongtin_brand {
+    padding: 28px 17px;
+    margin: 0px;
+    color: white;
+}
+.thongtin_brand a:hover{
+    color: #1ed760;
+    text-decoration: none;
+}
+.thongtin_brand .help{
+    color: #1ed760;
+}
+.ngancachbrand  {
+    margin: auto 17px;
+    color: white;
+    padding: 0px;
+}
+.thongtin_brand a {
+    color: white;
+    font-size:16px;
+    line-height:24px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+}
 #maina{
     width: 100%;
     height: 80px;
-    border-bottom: 1px solid #88898c;
 }
 #giua input {
     float: left;
     margin: 10px 0 10px;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 1.25;
     color: black;
     width: 100%;
@@ -21,77 +78,94 @@
     height: 50px;
 }
 #register-dob-day{
+    opacity: 0.8;
     margin: auto;
     float: left;
     width: 25%;
-    height: 88%;
+    height: 100%;
 }
+
 .nhom2{
     margin: 0 20px;
     width: 38%;
     height: 100%;
+    opacity: 0.8;
 }
 #register-dob-year{
+    opacity: 0.8;
     float: right;
     width: 25%;
-    height: 88%;
+    height: 100%;
 
 }
-.container{
-    width: 100%;
-    height: 800px;
-}
 
-h6{
+.face{
     width: 320px ;
-    height: 61px;
+    height: 66px;
     margin: 20px auto;
     text-align: center;
-    font-size: 24px;
+    font-size: 18px;
     color: #ffffff;
+    padding:16px 15px 0;
     text-transform: uppercase;
-    background-color: #3B5998;
-    padding: 15px 35px;
-    font-weight: 500;
     border-radius: 50px;
+    background-color: #3B5998;
 }
-#duoi p{
+.chu1{
     text-align: center;
     font-size: 20px;
     font-weight: bold;
+    margin-top: -13px;
 }
 img{
 
-    width: 197px;
-    height: 59px;
+    width: 132px;
+    height: 40px;
 }
 #logo{
     width: 197px;
     height: 59px;
     margin: auto;
 }
+.nhom2 option{
+    opacity: 0.8;
+}
 #duoi {
     width: 426px;
     height: 2000px;
-    margin: auto;
+    margin: 30px auto;
 }
 #duoi1{
+    margin-top: 20px;
     text-decoration: none;
     font-size: 20px;
     color: #88898c;
 }
-.chu p{
-    float: left;
-    color: #88898c;
-    font-size: 555px;
+.duoi13{
+    float: right;
 }
+.duoi12{
+    margin-left: 40px;
+}
+.chu{
+    border-toptop: 1px solid darkgray;
+}
+.chu2{
+    text-align: justify;
+    font-size: 13px;
+    text-align: center;
+}
+
 a{
     text-decoration: none;
 }
-#register-button-email-submit{
-    width: 500px ;
+.chu3{
+    text-align: center;
+}
+.register-button-email-submit{
+    width: 304px ;
     height: 61px;
-    margin: 50px 120px;
+    margin: 2px 55px;
     text-align: center;
     font-size: 20px;
     color: #ffffff;
@@ -103,6 +177,6 @@ a{
 .face:hover{
     background-color: darkgray;
 }
-#register-button-email-submit:hover{
+.register-button-email-submit:hover{
     background-color: darkgray;
 }
