@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f381bb8a-2076-48fb-bf22-e36940f1345f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baitapnhom/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/baitapnhom/css/home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/baitapnhom/css/premium.css" beforeDir="false" afterPath="$PROJECT_DIR$/baitapnhom/css/premium.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/baitapnhom/home_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/baitapnhom/home_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baitapnhom/premium.html" beforeDir="false" afterPath="$PROJECT_DIR$/baitapnhom/premium.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baitapnhom/taixuong.html" beforeDir="false" afterPath="$PROJECT_DIR$/baitapnhom/taixuong.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baitapnhom/trogiup.html" beforeDir="false" afterPath="$PROJECT_DIR$/baitapnhom/trogiup.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +77,7 @@
       <workItem from="1583929861045" duration="9000" />
       <workItem from="1583938075720" duration="15000" />
       <workItem from="1583938114655" duration="44000" />
-      <workItem from="1583974794211" duration="18013000" />
+      <workItem from="1583974794211" duration="18303000" />
     </task>
     <servers />
   </component>

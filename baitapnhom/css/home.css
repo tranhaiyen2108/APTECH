@@ -181,8 +181,10 @@
     line-height: 1;
     padding: 16px 48px 18px;
     cursor: pointer;
+    transition: all .3s ease-in-out;
+    color: white;
 }
-.downloadButton a {
+.bt{
     text-decoration: none;
     color: white;
     margin: 16px 0 0;
@@ -195,11 +197,11 @@
     transform: none;
     background-color: #14833b;
 }
-.downloadButton a:hover{
+.bt:hover{
     text-decoration: none;
     color: white;
 }
-.downloadButton a:active{
+.bt:active{
     text-decoration: none;
     color: white;
 }
