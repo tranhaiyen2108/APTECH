@@ -4,105 +4,169 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
-.body{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column
+.brand {
+    position : fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 2;
+    backdrop-filter: opacity(40%);
+    background-color: transparent;
 }
-@media (min-width: 992px){
-    .backGround{
-        background-image: url("../imgs/HomPageBackground.jpg");
-        background-repeat: no-repeat;
-        background-position:center center;
-        background-size: cover;
-        width: 100%;
-    }
-}
-@media (min-width: 992px){
-    .brand {
-        background-color: rgba(0, 0, 0, 0.6);
-        position : relative;
-        top: 0;
-        width: 100%;
-        z-index: 2;
-        min-height: 54px;
-    }
-}
-.brandMain{
+
+.brandmain{
     display :flex;
-    margin: 0 auto;
-    width: 1000px;
+    justify-content: space-between;
 }
 .imgbrand {
+    /* float :left; */
     display : flex;
     align-items: center;
     width: 30%;
 }
-
-@media (min-width: 992px){
-    .navigation{
-        display: inline-block;
-    }
-}
-.navigation{
-    width: 70%;
-}
 .thongtinbrand {
+    /* float : right; */
     display: flex;
     justify-content: flex-end;
+    width: 70%;
 }
 .thongtin_brand {
     padding: 28px 17px;
-    margin: 0;
-    list-style: none;
-}
-.thongtin_brand a{
-    text-decoration: none;
-    /*font-family: 'Roboto', sans-serif;*/
+    margin: 0px;
     color: white;
-    font-size:16px;
-    line-height:24px;
-    font-weight: bolder;
+}
+.thongtin_brand a:hover{
+    color: #1ed760;
+    text-decoration: none;
+}
+.thongtin_brand .help{
+    color: #1ed760;
 }
 .ngancachbrand  {
     margin: auto 17px;
-    padding: 0;
     color: white;
-    list-style: none
+    padding: 0px;
 }
+.thongtin_brand a {
+    color: white;
+    font-size:16px;
+    line-height:24px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+}
+/*.body{*/
+/*    min-height: 100vh;*/
+/*    display: flex;*/
+/*    flex-direction: column*/
+/*}*/
+/*@media (min-width: 992px){*/
+/*    .backGround{*/
+/*        background-image: url("../imgs/HomPageBackground.jpg");*/
+/*        background-repeat: no-repeat;*/
+/*        background-position:center center;*/
+/*        background-size: cover;*/
+/*        width: 100%;*/
+/*    }*/
+/*}*/
+/*@media (min-width: 992px){*/
+/*    .brand {*/
+/*        background-color: rgba(0, 0, 0, 0.6);*/
+/*        position : relative;*/
+/*        top: 0;*/
+/*        width: 100%;*/
+/*        z-index: 2;*/
+/*        min-height: 54px;*/
+/*    }*/
+/*}*/
+/*.brandMain{*/
+/*    display :flex;*/
+/*    margin: 0 auto;*/
+/*    width: 1000px;*/
+/*}*/
+/*.imgbrand {*/
+/*    display : flex;*/
+/*    align-items: center;*/
+/*    width: 30%;*/
+/*}*/
+
+/*@media (min-width: 992px){*/
+/*    .navigation{*/
+/*        display: inline-block;*/
+/*    }*/
+/*}*/
+/*.navigation{*/
+/*    width: 70%;*/
+/*}*/
+/*.thongtinbrand {*/
+/*    display: flex;*/
+/*    justify-content: flex-end;*/
+/*}*/
+/*.thongtin_brand {*/
+/*    padding: 28px 17px;*/
+/*    margin: 0;*/
+/*    list-style: none;*/
+/*}*/
+/*.thongtin_brand a{*/
+/*    text-decoration: none;*/
+/*    !*font-family: 'Roboto', sans-serif;*!*/
+/*    color: white;*/
+/*    font-size:16px;*/
+/*    line-height:24px;*/
+/*    font-weight: bolder;*/
+/*}*/
+/*.ngancachbrand  {*/
+/*    margin: auto 17px;*/
+/*    padding: 0;*/
+/*    color: white;*/
+/*    list-style: none*/
+/*}*/
 .bodyMain {
+    background-image: url("../imgs/HomPageBackground.jpg");
     width: 100%;
-    padding-top: 5%;
-    padding-bottom: 20%;
+    height: 720px;
+    background-size: cover;
 }
 .bodyMain .homeTitle{
-    width: 1000px;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
-    padding: 200px 20px 50px 20px;
+    padding: 200px 20px 0px 20px;
 }
-.bodyMain .homeTitle .text {
-    line-height: 1.15;
-    margin-top: 0;
-    color: white;
-    display: block;
-}
-.bodyMain .homeTitle h1{
-    font-size: 60px;
+.text1{
+    font-size: 80px;
     font-weight: 900;
-    letter-spacing: 2pt;
-    line-height: 1.15;
-}
-.bodyMain .homeTitle h5{
-    padding-top: 30px;
-    font-size: 14pt;
-    font-weight: lighter;
     letter-spacing: -0.04em;
+    line-height: 1.15;
+    margin-bottom: 20px;
+    color: white;
 }
+.text2{
+    margin: 9px 0 18px;
+    color: white;
+    font-size: 18px;
+}
+/*.bodyMain .homeTitle .text {*/
+/*    line-height: 1.15;*/
+/*    margin-top: 0;*/
+/*    color: white;*/
+/*    display: block;*/
+/*}*/
+/*.bodyMain .homeTitle h1{*/
+/*    font-size: 60px;*/
+/*    font-weight: 900;*/
+/*    letter-spacing: 2pt;*/
+/*    line-height: 1.15;*/
+/*}*/
+/*.bodyMain .homeTitle h5{*/
+/*    padding-top: 30px;*/
+/*    font-size: 14pt;*/
+/*    font-weight: lighter;*/
+/*    letter-spacing: -0.04em;*/
+/*}*/
 .downloadButton{
     margin: 0 auto;
     width: 28%;
-    padding-bottom: 200px;
+    padding-top: 18px;
 }
 
 .downloadButton button{
@@ -121,6 +185,23 @@
 .downloadButton a {
     text-decoration: none;
     color: white;
+    margin: 16px 0 0;
+}
+.downloadButton button:hover{
+    transform: scale(1.05);
+    background-color: #1ed760;
+}
+.downloadButton button:active{
+    transform: none;
+    background-color: #14833b;
+}
+.downloadButton a:hover{
+    text-decoration: none;
+    color: white;
+}
+.downloadButton a:active{
+    text-decoration: none;
+    color: white;
 }
 .downloadButton span{
     font-family: inherit;
@@ -133,9 +214,8 @@
 footer  {
     color: white;
     background-color: black;
-    padding : 80px 0 50px 0;
+    padding : 30px 0px 20px 0px;
 }
-
 .footer1 {
     display: flex;
 }
@@ -160,21 +240,27 @@ footer  {
     line-height:24px;
     font-weight:400;
     font-size:16px;
-    padding: 3px 0 15px 0;
-    margin: 0;
-
-
+    padding: 3px 0px 15px 0px;
+    margin: 0px;
+}
+.thumnuc_thongtin_footer a{
+    color: #fff;
+}
+.thumnuc_thongtin_footer a:hover{
+    color: #1ed760;
+    text-decoration: none;
 }
 .thumnucdau_thongtin_footer {
-    margin: 20px 0;
+    margin: 20px 0px;
     font-size:12px;
     font-weight:900;
     letter-spacing:0.96px;
     line-height:16.8px;
     color:rgb(145, 148, 150);
+    text-transform: uppercase;
 }
 .img_hinhanh {
-    margin: 0 15px 0 0;
+    margin: 0px 15px 0px 0px;
 }
 .footer2 {
     font-size:12px;
@@ -188,22 +274,37 @@ footer  {
     justify-content: flex-end;
 }
 .vietnam p {
-    margin: 0;
+    margin: 0px;
+}
+.vietnam a{
+    color:rgb(145, 148, 150);
+}
+.vietnam a:hover{
+    color: #1ed760;
+    text-decoration: none;
 }
 .footer_gioithieu{
     display : flex;
     justify-content: space-between;
 }
 .footer_gioithieu p {
-    margin: 12px 0;
+    margin: 12px 0px;
+}
+.footer_gioithieu a{
+    color:rgb(145, 148, 150);
+}
+.footer_gioithieu a:hover{
+    color: #1ed760;
+    text-decoration: none;
 }
 .left_footer_gioithieu {
     display : flex;
-    padding: 0 0 0 15px;
 }
 .left_footer_gioithieu p {
     margin-right: 24px;
 }
+
+
 
 
 

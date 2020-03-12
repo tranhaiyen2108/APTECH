@@ -4,109 +4,167 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
-.body{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column
+.brand {
+    position : fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 2;
+    backdrop-filter: opacity(40%);
+    background-color: transparent;
 }
-@media (min-width: 992px) {
-    .backGround {
-        background: url("https://campaigns-test.scdn.co/images/premium_dancer.png")  no-repeat, url('../imgs/premium.jpg') repeat;
-        background-size: 450px, cover;
-        background-position: right bottom, left top;
-        /*background: url(img_flwr.gif) right bottom no-repeat, url(paper.gif) left top repeat;*/
-        position: relative;
-    }
-}
-@media (min-width: 992px){
-    .brand {
-        position : relative;
-        background-color: black;
-        top: 0;
-        width: 100%;
-        z-index: 2;
-        min-height: 54px;
-    }
-}
-.brandMain{
+
+.brandmain{
     display :flex;
-    margin: 0 auto;
-    width: 1000px;
+    justify-content: space-between;
 }
 .imgbrand {
+    /* float :left; */
     display : flex;
     align-items: center;
     width: 30%;
 }
-
-@media (min-width: 992px){
-    .navigation{
-        display: inline-block;
-    }
-}
-.navigation{
-    width: 70%;
-}
 .thongtinbrand {
+    /* float : right; */
     display: flex;
     justify-content: flex-end;
+    width: 70%;
 }
 .thongtin_brand {
     padding: 28px 17px;
-    margin: 0;
-    list-style: none;
-}
-.thongtin_brand a{
-    text-decoration: none;
-    /*font-family: 'Roboto', sans-serif;*/
+    margin: 0px;
     color: white;
-    font-size:16px;
-    line-height:24px;
-    font-weight: bolder;
+}
+.thongtin_brand a:hover{
+    color: #1ed760;
+    text-decoration: none;
+}
+.thongtin_brand .premium{
+    color: #1ed760;
 }
 .ngancachbrand  {
     margin: auto 17px;
-    padding: 0;
     color: white;
-    list-style: none
+    padding: 0px;
 }
+.thongtin_brand a {
+    color: white;
+    font-size:16px;
+    line-height:24px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+}
+/*.body{*/
+/*    min-height: 100vh;*/
+/*    display: flex;*/
+/*    flex-direction: column*/
+/*}*/
+/*@media (min-width: 992px) {*/
+/*    .backGround {*/
+/*        background: url("https://campaigns-test.scdn.co/images/premium_dancer.png")  no-repeat, url('../imgs/premium.jpg') repeat;*/
+/*        background-size: 450px, cover;*/
+/*        background-position: right bottom, left top;*/
+/*        !*background: url(img_flwr.gif) right bottom no-repeat, url(paper.gif) left top repeat;*!*/
+/*        position: relative;*/
+/*    }*/
+/*}*/
+/*@media (min-width: 992px){*/
+/*    .brand {*/
+/*        position : relative;*/
+/*        background-color: black;*/
+/*        top: 0;*/
+/*        width: 100%;*/
+/*        z-index: 2;*/
+/*        min-height: 54px;*/
+/*    }*/
+/*}*/
+/*.brandMain{*/
+/*    display :flex;*/
+/*    margin: 0 auto;*/
+/*    width: 1000px;*/
+/*}*/
+/*.imgbrand {*/
+/*    display : flex;*/
+/*    align-items: center;*/
+/*    width: 30%;*/
+/*}*/
+
+/*@media (min-width: 992px){*/
+/*    .navigation{*/
+/*        display: inline-block;*/
+/*    }*/
+/*}*/
+/*.navigation{*/
+/*    width: 70%;*/
+/*}*/
+/*.thongtinbrand {*/
+/*    display: flex;*/
+/*    justify-content: flex-end;*/
+/*}*/
+/*.thongtin_brand {*/
+/*    padding: 28px 17px;*/
+/*    margin: 0;*/
+/*    list-style: none;*/
+/*}*/
+/*.thongtin_brand a{*/
+/*    text-decoration: none;*/
+/*    !*font-family: 'Roboto', sans-serif;*!*/
+/*    color: white;*/
+/*    font-size:16px;*/
+/*    line-height:24px;*/
+/*    font-weight: bolder;*/
+/*}*/
+/*.ngancachbrand  {*/
+/*    margin: auto 17px;*/
+/*    padding: 0;*/
+/*    color: white;*/
+/*    list-style: none*/
+/*}*/
 .bodyMain {
-    width: 100%;
-    padding-top: 5%;
-    padding-bottom: 2%;
+    padding-top: 80px;
+    background: url(https://campaigns-test.scdn.co/images/premium_dancer.png) right bottom / 450px no-repeat rgb(80, 155, 245);
+    height: 650px;
 }
 .bodyMain .homeTitle{
-    width: 1000px;
+    width: 100%;
     margin: 0 auto;
-    text-align: center;
-    padding: 200px 20px 50px 20px;
 }
-.text {
-    line-height: 2;
-    margin-top: 0;
-    color: black;
-    display: block;
-    text-align: center;
-}
-h1{
-    font-size: 60px;
+.text1 {
+    line-height: 1.2;
     font-weight: 900;
-    letter-spacing: 2pt;
-    line-height: 2;
+    max-width: 100%;
+    width: auto;
+    display: inline-block;
+    font-size: 70px;
+    text-align: left;
+    color: white;
+    padding-top: 7%;
 }
-.bodyMain .homeTitle h5{
+.text2{
     padding-top: 30px;
-    font-size: 18pt;
     font-weight: bold;
     letter-spacing: -0.04em;
+    margin: 30px 0 0;
+    color: white;
+    font-size: 30px;
 }
-
+.text3{
+    font-size: 12px;
+    color: white;
+}
+.text3 a{
+    color: white;
+    text-decoration: underline;
+}
+.text3 a:hover{
+    color: white;
+    text-decoration: underline;
+}
 .downloadButton{
-    margin: 0 auto;
     width: 15.5%;
-    padding-bottom: 200px;
+    padding-top: 5%;
+    padding-bottom: 4%;
 }
-
 .container button{
     border-radius: 30px;
     display: inline-block;
@@ -120,7 +178,23 @@ h1{
     padding: 16px 48px 18px;
     cursor: pointer;
 }
+.container button:hover{
+    transform: scale(1.05);
+    background-color: #1ed760;
+}
+.container button:active{
+    transform: none;
+    background-color: #14833b;
+}
 .downloadButton a {
+    text-decoration: none;
+    color: white;
+}
+.downloadButton a:hover{
+    text-decoration: none;
+    color: white;
+}
+.downloadButton a:active{
     text-decoration: none;
     color: white;
 }
@@ -132,175 +206,227 @@ h1{
     letter-spacing: 1.5pt;
 
 }
-.reasonForUse .titleArticle{
+.text4{
     text-align: center;
     padding: 3%;
+    line-height: 1.3;
+    letter-spacing: -0.015em;
+    font-weight: 900;
+    font-size: 48px;
 }
-@media (min-width: 1200px) {
-    .articleList {
-        flex-wrap: nowrap;
-        -webkit-box-pack: justify;
-        justify-content: space-between;
-    }
-}
+/*@media (min-width: 1200px) {*/
+/*    .articleList {*/
+/*        flex-wrap: nowrap;*/
+/*        -webkit-box-pack: justify;*/
+/*        justify-content: space-between;*/
+/*    }*/
+/*}*/
 .articleList {
     display: flex;
 }
-@media (min-width: 1000px){
-    .articleList .articleListItemContent img{
-         vertical-align: top;
-         display: block;
-         width: 200px;
-     }
-}
-@media (min-width: 768px){
-    .articleList .articleListItemContent img{
-    flex-grow: 1;
-    }
+/*@media (min-width: 1000px){*/
+/*    .articleList .articleListItemContent img{*/
+/*         vertical-align: top;*/
+/*         display: block;*/
+/*         width: 200px;*/
+/*     }*/
+/*}*/
+/*@media (min-width: 768px){*/
+/*    .articleList .articleListItemContent img{*/
+/*    flex-grow: 1;*/
+/*    }*/
+/*}*/
+.articleList .articleListItemContent{
+    text-align: center;
 }
 .articleList .articleListItemContent img{
-    display: flex;
-    justify-content: center;
-    padding-bottom: 30px;
+    margin: 0 71.5px 40px;
+}
+.articleList .articleListItemContent span{
+    margin: 0 0 10px;
+    font-size: 21px;
+}
+.articleList .articleListItemContent p{
+    font-size: 16px;
+    margin: 0 21.375px;
 }
 .reasonForUse{
-    padding: 5% 0 2% 0;
+    padding: 5% 0 5% 0;
 }
-@media (min-width: 768px){
-    .halfScreen{
-        width: 100%;
-    }
+/*@media (min-width: 768px){*/
+/*    .halfScreen{*/
+/*        width: 100%;*/
+/*    }*/
+/*}*/
+/*@media (min-width: 1000px){*/
+/*    .halfScreen{*/
+/*        width: 50%;*/
+/*    }*/
+/*}*/
+.text5{
+    font-size: 48px;
+    line-height: 1.3;
+    letter-spacing: -0.015em;
+    font-weight: 900;
+    text-align: center;
 }
-@media (min-width: 1000px){
-    .halfScreen{
-        width: 50%;
-    }
+.text6{
+    margin: 15px 0 50px;
+    font-size: 20px;
+    text-align: center;
+}
+.text7{
+    margin: 0 0 40px;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    flex: 0 1 auto;
+}
+.halfScreen{
+    width: 50%;
 }
 .halfScreen .planOption{
-    width: 70%;
-    margin: 0 auto;
-}
-.planOption header{
-    text-align: center;
-    font-size: 16pt;
-    padding: 20px;
+    margin: 0px 0px 50px;
+    padding: 0 10px;
 }
 .planOption .plan{
     border: 1px solid lightgrey;
     border-radius: 25px;
-    padding: 20px;
+    padding: 30px 20px;
     margin: 0 auto;
-    height:500px;
+    height:334.4px;
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+    box-shadow: 5px 5px 10px 10px #f2f2f2;
     position: relative;
 }
-.planOption .plan .text {
-    display: inline-block;
-    text-align: left;
-}
-.planOption .plan .text span{
-    border-radius: 10px;
-    padding: 4px 10px;
-    background-color: rgb(63, 158, 215);
-    border: 1px solid rgb(63, 122, 180);
+.text8{
     color: white;
-    margin-bottom: 10%;
+    background-color: rgb(63, 158, 215);
+    font-size: 12px;
+    display: inline-block;
+    font-weight: 300;
+    margin-bottom: 10px;
+    margin-block-start: 0px;
+    margin-block-end: 10px;
+    border-radius: 3px;
+    padding: 4px 8px;
+}
+.text9{
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-block-start: 0px;
+    font-size: 14px;
+}
+.text10{
+    font-size: 12px;
+    margin-bottom: 10px;
 }
 /*làm tiepsep từ chô này*/
-.paymentMethod{
-    padding-bottom: 20%;
-}
-.paymentMethod img{
-    width: 100%;
-    padding-bottom: 4%;
-}
-.creditcard img{
-    width: 80%;
-}
 
 .planButton{
     background-color: white;
-    position: absolute;
-    bottom:24%;
-    left:27%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.paymentMethod select{
-    border-radius: 10px;
-    padding: 2%;
+.pB1{
+    padding-top: 30%;
 }
-.plan .termAndCondition{
-    position: absolute;
-    bottom:3%;
+.pB2{
+    padding-top: 5%;
+}
+.planButton a{
+    color: white;
+}
+.planButton button{
+    border-radius: 30px;
+    display: inline-block;
+    font-weight: 700;
+    background-color: #1DB954;
+    font-size: 14px;
+    line-height: 1;
+    padding: 17px 45px;
+    cursor: pointer;
+    width: 100%;
+    height: 47.6px;
+}
+.planButton a:hover{
+    text-decoration: none;
+    color: white;
+}
+.paymentMethod .selectPeriod{
+    padding-top: 5%;
+}
+.paymentMethod .selectPeriod select{
+    border-radius: 5px;
+    width: 100% ;
+    height: 48px;
+}
+.paymentMethod .selectPeriod #period1{
+    margin: 0 0 20px;
+    padding: 14px 44px 12px 14px;
+}
+.text11{
+    margin: 20px 0 0;
+    font-size: 12px;
+    color: #222326;
+}
+.text11 a{
+    color: #222326;
+    text-decoration: underline;
+}
+.text11 a:hover{
+    color: #222326;
+    text-decoration: underline;
+}
+.text11 a:active{
+    color: #222326;
+    text-decoration: underline;
 }
 footer  {
     color: white;
     background-color: black;
-    padding : 80px 0 50px 0;
-}
-
-.footer1 {
-    display: flex;
-}
-.left_footer {
-    width: 70%;
-    display :flex;
-}
-.right_footer  {
-    width: 30%;
-    display : flex;
-    justify-content: flex-end;
-    margin-top:20px;
-}
-.img_footer {
-    width: 25%;
-}
-.thongtin_footer {
-    width: 25%;
-}
-.thumnuc_thongtin_footer  {
-    width: 80%;
-    line-height:24px;
-    font-weight:400;
-    font-size:16px;
-    padding: 3px 0 15px 0;
-    margin: 0;
-
-
-}
-.thumnucdau_thongtin_footer {
-    margin: 20px 0;
-    font-size:12px;
-    font-weight:900;
-    letter-spacing:0.96px;
-    line-height:16.8px;
-    color:rgb(145, 148, 150);
-}
-.img_hinhanh {
-    margin: 0 15px 0 0;
+    padding : 30px 0px 20px 0px;
 }
 .footer2 {
     font-size:12px;
     font-weight:400;
     line-height:18px;
     color:rgb(145, 148, 150);
-    margin-top: 30px;
 }
 .vietnam {
     display :flex;
     justify-content: flex-end;
 }
 .vietnam p {
-    margin: 0;
+    margin: 0px;
+}
+.vietnam a{
+    color:rgb(145, 148, 150);
+}
+.vietnam a:hover{
+    color: #1ed760;
+    text-decoration: none;
 }
 .footer_gioithieu{
     display : flex;
     justify-content: space-between;
 }
 .footer_gioithieu p {
-    margin: 12px 0;
+    margin: 12px 0px;
+}
+.footer_gioithieu a{
+    color:rgb(145, 148, 150);
+}
+.footer_gioithieu a:hover{
+    color: #1ed760;
+    text-decoration: none;
 }
 .left_footer_gioithieu {
     display : flex;
-    padding: 0 0 0 15px;
 }
 .left_footer_gioithieu p {
     margin-right: 24px;
