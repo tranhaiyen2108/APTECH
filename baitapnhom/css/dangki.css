@@ -18,6 +18,7 @@
 .brandmain{
     display :flex;
     justify-content: space-between;
+    height: auto;
 }
 .imgbrand {
     /* float :left; */
