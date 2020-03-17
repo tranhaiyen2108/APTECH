@@ -1,0 +1,95 @@
+.bodyMain {
+    background-image: url("../imgs/HomPageBackground.jpg");
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+.bodyMain .homeTitle{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 200px 20px 0px 20px;
+}
+.text1{
+    font-size: 80px;
+    font-weight: 900;
+    letter-spacing: -0.04em;
+    line-height: 1.15;
+    margin-bottom: 20px;
+    color: white;
+}
+.text2{
+    margin: 9px 0 18px;
+    color: white;
+    font-size: 18px;
+}
+/*.bodyMain .homeTitle .text {*/
+/*    line-height: 1.15;*/
+/*    margin-top: 0;*/
+/*    color: white;*/
+/*    display: block;*/
+/*}*/
+/*.bodyMain .homeTitle h1{*/
+/*    font-size: 60px;*/
+/*    font-weight: 900;*/
+/*    letter-spacing: 2pt;*/
+/*    line-height: 1.15;*/
+/*}*/
+/*.bodyMain .homeTitle h5{*/
+/*    padding-top: 30px;*/
+/*    font-size: 14pt;*/
+/*    font-weight: lighter;*/
+/*    letter-spacing: -0.04em;*/
+/*}*/
+.downloadButton{
+    margin: 0 auto;
+    padding-top: 18px;
+    padding-bottom: 10%;
+}
+
+.downloadButton button{
+    border-radius: 30px;
+    display: inline-block;
+    font-weight: 700;
+    vertical-align: middle;
+    background-color: #1DB954;
+    border: 1px solid transparent;
+    font-size: 14px;
+    line-height: 1;
+    padding: 16px 48px 18px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    color: white;
+}
+.bt{
+    text-decoration: none;
+    color: white;
+    margin: 16px 0 0;
+}
+.downloadButton button:hover{
+    transform: scale(1.05);
+    background-color: #1ed760;
+}
+.downloadButton button:active{
+    transform: none;
+    background-color: #14833b;
+}
+.bt:hover{
+    text-decoration: none;
+    color: white;
+}
+.bt:active{
+    text-decoration: none;
+    color: white;
+}
+.downloadButton span{
+    font-family: inherit;
+    min-width: 160px;
+    text-transform: uppercase;
+    white-space: normal;
+    letter-spacing: 1.5pt;
+}
+.space{
+    margin-bottom: 10%;
+}
+

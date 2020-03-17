@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <%- include('head') -%>
+    <title>Đăng ký - Spotify</title>
+    <link rel="stylesheet" href="css/dangki.css">
+
+</head>
+<body>
+<div class='brand'>
+    <%- include('header')-%>
+</div>
+<div class="bodymain">
+    <div class="signup">
+        <div class="signup_header">
+            <div class="container">
+                <div class="box-content">
+                    <a href="/" class="spotify-logo"></a>
+                </div>
+            </div>
+        </div>
+        <div class="signup_body">
+            <div class="container">
+                <div class="box-content">
+                    <section class="signup_select">
+                        <form action="#" name="signup_fb" method="post">
+                            <div class="content">
+                                <a href="#" class="btn btn-block btn-facebook">Đăng ký bằng <br>Facebook</a>
+                                <strong class="line_thru">hoặc</strong>
+                            </div>
+                        </form>
+                    </section>
+                    <section class="register">
+                        <div class="content">
+                            <h2 class="dky">Đăng ký bằng địa chỉ email của bạn</h2>
+                        </div>
+                        <div class="modal-body">
+                            <form action="#" method="post">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" name="email" placeholder="Email" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" name="confirm_email" placeholder="Xác nhận Email"required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" name="password" placeholder="Mật khẩu" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="name" placeholder="Chúng tôi nên gọi bạn bằng gì?" required>
+                                </div>
+                                <div class="controls-dob">
+                                    <label for="register-age">Ngày sinh</label>
+                                    <div id="register-dob" class="register-dob">
+                                        <div class="control control-day">
+                                            <input type="number" class="dob" name="day" max="31" maxlength="2" min="1" pattern="[0-9]" placeholder="Ngày" required>
+                                        </div>
+                                        <div class="control control-month">
+                                            <select name="month" id="register_month" class="dob" data-msg-required="Vui lòng nhập tháng sinh của bạn." required>
+                                                <option value="" selected="selected">Tháng</option>
+                                                <option value="01">Tháng Một</option>
+                                                <option value="02">Tháng Hai</option>
+                                                <option value="03">Tháng Ba</option>
+                                                <option value="04">Tháng Tư</option>
+                                                <option value="05">Tháng Năm</option>
+                                                <option value="06">Tháng Sáu</option>
+                                                <option value="07">Tháng Bảy</option>
+                                                <option value="08">Tháng Tám</option>
+                                                <option value="09">Tháng Chín</option>
+                                                <option value="10">Tháng Mười</option>
+                                                <option value="11">Tháng Mười Một</option>
+                                                <option value="12">Tháng Mười hai</option>
+                                            </select>
+                                        </div>
+                                        <div class="control control-year">
+                                            <input type="number" class="dob" name="year" placeholder="Năm" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="gender">
+                                        <label for="register_male" class="radio">
+                                            <input type="radio" id="register_male" name="gender" required>
+                                            Nam
+                                        </label>
+                                        <label for="register_female" class="radio">
+                                            <input type="radio" id="register_female" name="gender" required>
+                                            Nữ
+                                        </label>
+                                        <label for="register_neutral" class="radio">
+                                            <input type="radio" id="register_neutral" name="gender" required>
+                                            Giới tính trung lập
+                                        </label>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="form-group">
+                                    <label for="register_thirdparty" class="checkbox">
+                                        <input type="checkbox" id="register_thirdparty" name="thirdparty" class="thirdparty" value="true" required>
+                                        Chia sẻ dữ liệu đăng ký của tôi với các nhà cung cấp nội dung Spotify cho mục đích tiếp thị.
+                                    </label>
+                                </div>
+                                <div class="form-group">
+                                    <p class="notice">
+                                        Bằng cách nhấp vào Đăng ký, bạn đồng ý với <a href="#" target="_blank">Điều khoản và Điều kiện Sử dụng</a> của Spotify.
+                                        <br><br>
+                                        Để tìm hiểu thêm về cách thức Spotify thu thập, sử dụng, chia sẻ và bảo vệ dữ liệu cá nhân của bạn, vui lòng đọc
+                                        <a href="#" target="_blank">Chính sách Quyền riêng tư</a> của Spotify.
+                                    </p>
+                                </div>
+                                <button id="register_button" class="btn btn-success btn-block">
+                                    Đăng ký
+                                </button>
+                            </form>
+                            <p class="primary notice">
+                                Bạn đã có tài khoản? <a href="#" id="register_login">Đăng nhập</a>
+                            </p>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer >
+    <%- include('footer') -%>
+</footer>
+</body>
+</html>

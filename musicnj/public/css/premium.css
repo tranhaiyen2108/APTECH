@@ -1,0 +1,275 @@
+.thongtin_brand .premium{
+    color: #1ed760;
+}
+
+.bodyMain {
+    padding-top: 80px;
+    background: url("https://campaigns-test.scdn.co/images/premium_dancer.png")  no-repeat, url('../imgs/premium.jpg') repeat;
+    background-size: 450px, cover;
+    background-position: right bottom, left top;
+    height: auto;
+}
+
+.bodyMain .homeTitle{
+    max-width: 100%;
+    margin: 0 auto;
+    line-height: 1.2;
+    font-weight: 900;
+    width: auto;
+    display: inline-block;
+    font-size: 48px;
+}
+.text1 {
+    line-height: 1.2;
+    font-weight: 900;
+    max-width: 100%;
+    width: auto;
+    display: inline-block;
+    font-size: 70px;
+    text-align: left;
+    color: #2d46b9;
+    padding-top: 7%;
+}
+.text2{
+    padding-top: 30px;
+    font-weight: bold;
+    letter-spacing: -0.04em;
+    margin: 30px 0 30px 0;
+    color: #2d46b9;
+    font-size: 25px;
+}
+.text3{
+    font-size: 13px;
+    color: #2d46b9;
+}
+.text3 a{
+    color: white;
+    text-decoration: underline;
+}
+.text3 a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.downloadButton{
+    padding: 17px 48px;
+}
+.container button{
+    border-radius: 30px;
+    display: inline-block;
+    font-weight: 700;
+    justify-items: center;
+    vertical-align: middle;
+    background-color: #1DB954;
+    border: 1px solid transparent;
+    font-size: 14px;
+    line-height: 1;
+    padding: 16px 48px 18px;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+    transition: all .3s ease-in-out;
+}
+.container button:hover{
+    transform: scale(1.05);
+    background-color: #1ed760;
+}
+.container button:active{
+    transform: none;
+    background-color: #14833b;
+}
+.bodyMain .bt{
+    text-decoration: none;
+    color: white;
+}
+.bodyMain .bt:hover{
+    text-decoration: none;
+    color: white;
+}
+.bodyMain .bt:active{
+    text-decoration: none;
+    color: white;
+}
+.text4{
+    text-align: center;
+    padding: 3%;
+    line-height: 1.3;
+    letter-spacing: -0.015em;
+    font-weight: 900;
+    font-size: 48px;
+}
+/*@media (min-width: 1200px) {*/
+/*    .articleList {*/
+/*        flex-wrap: nowrap;*/
+/*        -webkit-box-pack: justify;*/
+/*        justify-content: space-between;*/
+/*    }*/
+/*}*/
+.articleList {
+    float: left;
+}
+/*@media (min-width: 1000px){*/
+/*    .articleList .articleListItemContent img{*/
+/*         vertical-align: top;*/
+/*         display: block;*/
+/*         width: 200px;*/
+/*     }*/
+/*}*/
+/*@media (min-width: 768px){*/
+/*    .articleList .articleListItemContent img{*/
+/*    flex-grow: 1;*/
+/*    }*/
+/*}*/
+.articleList .articleListItemContent{
+    text-align: center;
+}
+.articleList .articleListItemContent img{
+    margin: 0 71.5px 40px;
+}
+.articleList .articleListItemContent span{
+    margin: 0 0 10px;
+    font-size: 21px;
+}
+.articleList .articleListItemContent p{
+    font-size: 16px;
+    margin: 0 21.375px;
+}
+.reasonForUse{
+    padding: 5% 0 5% 0;
+}
+/*@media (min-width: 768px){*/
+/*    .halfScreen{*/
+/*        width: 100%;*/
+/*    }*/
+/*}*/
+/*@media (min-width: 1000px){*/
+/*    .halfScreen{*/
+/*        width: 50%;*/
+/*    }*/
+/*}*/
+.text5{
+    font-size: 48px;
+    line-height: 1.3;
+    letter-spacing: -0.015em;
+    font-weight: 900;
+    text-align: center;
+}
+.text6{
+    margin: 15px 0 50px;
+    font-size: 20px;
+    text-align: center;
+}
+.text7{
+    margin: 0 0 40px;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    flex: 0 1 auto;
+}
+.halfScreen{
+    width: 50%;
+}
+.halfScreen .planOption{
+    margin: 0px 0px 50px;
+    padding: 0 10px;
+}
+.planOption .plan{
+    border: 1px solid lightgrey;
+    border-radius: 25px;
+    padding: 30px 20px;
+    height:334.4px;
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+    box-shadow: 5px 5px 10px 10px #f2f2f2;
+    position: relative;
+    justify-content: center;
+    margin: 0 auto;
+}
+.text8{
+    color: white;
+    background-color: rgb(63, 158, 215);
+    font-size: 12px;
+    display: inline-block;
+    font-weight: 300;
+    margin-bottom: 10px;
+    margin-block-start: 0px;
+    margin-block-end: 10px;
+    border-radius: 3px;
+    padding: 4px 8px;
+}
+.text9{
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-block-start: 0px;
+    font-size: 14px;
+}
+.text10{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+/*làm tiepsep từ chô này*/
+
+.planButton{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pB1{
+    padding-top: 30%;
+}
+.pB2{
+    padding-top: 5%;
+}
+.planButton .bt2{
+    color: white;
+    width: 100%;
+}
+.planButton button{
+    border-radius: 30px;
+    display: inline-block;
+    font-weight: 700;
+    background-color: #1DB954;
+    font-size: 14px;
+    line-height: 1;
+    padding: 17px 45px;
+    cursor: pointer;
+    width: 100%;
+    height: 47.6px;
+    transition: all .3s ease-in-out;
+
+}
+.planButton a:hover{
+    text-decoration: none;
+    color: white;
+}
+.paymentMethod .selectPeriod{
+    padding-top: 5%;
+}
+.paymentMethod .selectPeriod select{
+    border-radius: 5px;
+    width: 100% ;
+    height: 48px;
+}
+.paymentMethod .selectPeriod #period1{
+    margin: 0 0 20px;
+    padding: 14px 44px 12px 14px;
+}
+.text11{
+    margin: 20px 0 0;
+    font-size: 12px;
+    color: #222326;
+}
+.text11 a{
+    color: #222326;
+    text-decoration: underline;
+}
+.text11 a:hover{
+    color: #222326;
+    text-decoration: underline;
+}
+.text11 a:active{
+    color: #222326;
+    text-decoration: underline;
+}

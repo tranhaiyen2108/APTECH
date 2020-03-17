@@ -1,0 +1,190 @@
+.thongtin_brand .signup{
+    color: #1ed760;
+}
+
+.bodymain {
+    /*padding: 0px 17px;*/
+    padding-top: 80px;
+    background-image: url("https://cdn.pixabay.com/photo/2016/03/27/07/32/light-1282314__340.jpg");
+    background-size: cover;
+}
+.signup{
+    color: #222326;
+    min-width: 320px;
+}
+.signup_header{
+    border-bottom: 2px solid black;
+}
+.box-content{
+    margin: 0 auto;
+    max-width: 430px;
+}
+.spotify-logo{
+    width: 197px;
+    height: 59px;
+    background: url("../imgs/Spotify_Logo_CMYK_Black.png") transparent no-repeat center center;
+    background-size: contain;
+    display: block;
+    margin: 24px auto;
+}
+.content{
+]
+padding: 30.4px 0 0;
+}
+.btn-facebook {
+    color: #FFF;
+    background-color: #3B5998;
+    height: 61.2px;
+    max-width: 320px;
+    margin: 14px auto;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 8px 48px 18px;
+}
+.btn-facebook:hover,.btn-facebook:focus{
+    background-color: #3a61b3;
+    color: #fff;
+}
+.btn-facebook:active{
+    background-color: #3B5998;
+    color: #fff;
+}
+.line_thru{
+    display: block;
+    font-size: .875em;
+    margin-bottom: 1em;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+    font-weight: 500;
+}
+.register .content{
+    padding: 0;
+}
+.dky{
+    font-size: 18px;
+    color: #1c1c1f;
+    margin-bottom: 1em;
+    font-weight: 900;
+    line-height: 1.2;
+    text-rendering: optimizelegibility;
+    text-align: center;
+}
+.controls-dob{
+    margin-bottom: 1em;
+}
+.register-dob{
+    text-align: justify;
+    line-height: 0;
+    width: 100%;
+}
+.form-control{
+    border-radius: 0px!important;
+    height: 48px!important;
+}
+label {
+    color: #999;
+    display: block;
+    font-size: .9375em;
+    text-align: left;
+}
+.control{
+    display: inline-block;
+    vertical-align: top;
+}
+.control-day{
+    float:left;
+    width: 25%;
+    margin-right: 5%;
+}
+.control-day input{
+    width: 100%;
+    height: 48px;
+    color: #999;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+}
+.control-day input::placeholder{
+    color: #999;
+}
+.control-month{
+    width: 40%;
+    margin-right: 5%;
+    float: left;
+}
+.control-month select{
+    width: 100%;
+    height: 48px;
+    color: #999;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+}
+.control-year{
+    width: 25%;
+}
+.control-year input{
+    width: 100%;
+    height: 48px;
+    color: #999;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+}
+.control-year input::placeholder{
+    color: #999;
+}
+.gender{
+    width: 100%;
+}
+.gender .radio{
+    padding: 0 0 0 20px;
+    white-space: nowrap;
+    width: 20%;
+    float: left;
+    margin: 10px 0;
+    font-size: 15px;
+}
+.gender #register_male{
+    margin: 3px 0 0 -20px;
+}
+.checkbox{
+    padding-left: 20px;
+    float: left;
+    font-size: 12px;
+}
+.notice{
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+.notice a{
+    color: #1DB954;
+}
+.notice a:hover,a:focus{
+    color: #1ED760;
+    text-decoration: none;
+}
+.notice a:active{
+    color: #1DB954;
+    text-decoration: none;
+}
+.btn-success{
+    height: 47.6px;
+    max-width: 320px;
+    margin: 14px auto;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 11px 48px 18px;
+}
+.primary{
+    margin: 0 0 15px;
+    font-size: 15px;
+    font-weight: 500;
+}

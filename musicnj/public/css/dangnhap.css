@@ -1,0 +1,177 @@
+.thongtin_brand .login{
+    color: #1ed760;
+}
+
+.bodymain {
+    /*padding: 0px 17px;*/
+    padding-top: 80px;
+    background-image: url("https://cdn.pixabay.com/photo/2016/03/27/07/32/light-1282314__340.jpg");
+    background-size: cover;
+}
+.signup{
+    color: #222326;
+    min-width: 320px;
+}
+.signup_header{
+    border-bottom: 2px solid black;
+}
+.box-content{
+    margin: 0 auto;
+    max-width: 430px;
+}
+.spotify-logo{
+    width: 197px;
+    height: 59px;
+    background: url("../imgs/Spotify_Logo_CMYK_Black.png") transparent no-repeat center center;
+    background-size: contain;
+    display: block;
+    margin: 24px auto;
+}
+.next{
+    padding: 0 15px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    margin: 30px auto 0;
+}
+.btn-facebook {
+    color: #FFF;
+    background-color: #3B5998;
+    height: 48px;
+    margin: 14px auto;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 14px 14px 18px;
+}
+.btn-facebook:hover,.btn-facebook:focus{
+    background-color: #3a61b3;
+    color: #fff;
+}
+.btn-facebook:active{
+    background-color: #3B5998;
+    color: #fff;
+}
+.btn-black{
+    color: #FFF;
+    background-color: #000;
+    height: 48px;
+    margin: 14px auto;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 14px 14px 18px;
+}
+.btn-black:hover,.btn-black:focus{
+    background-color: #333;
+    color: #fff;
+}
+.btn-black:active{
+    background-color: #000;
+    color: #fff;
+}
+.imgfb{
+    width: 10px;
+    height: 10px;
+    background-color: #3B5998;
+}
+.line_thru{
+    display: block;
+    font-size: .875em;
+    margin-bottom: 1em;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+    font-weight: 500;
+}
+.register .content{
+    padding: 0;
+}
+.form-control{
+    border-radius: 0px!important;
+    height: 40px!important;
+}
+.checkbox{
+    padding-left: 5px;
+}
+input[type=checkbox][name=remember]{
+    width: 1.25em;
+    height: 1.25em;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 2px;
+}
+input[type=checkbox][name=remember]:focus:checked{
+    background-color: #1db954;
+    border-color: #1db954;
+}
+.notice{
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+.notice a{
+    color: #1DB954;
+}
+.notice a:hover,a:focus{
+    color: #1ED760;
+    text-decoration: none;
+}
+.notice a:active{
+    color: #1DB954;
+    text-decoration: none;
+}
+.btn-success{
+    height: 47.6px;
+    min-width: 160px;
+    margin: 5px auto;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 12px 14px 18px;
+}
+.primary{
+    margin: 8px 0 16px;
+    font-size: 15px;
+    font-weight: 500;
+    padding-bottom: 50px;
+    border-bottom: 2px solid #000;
+}
+.btn-dky{
+    height: 47.6px;
+    margin: 5px auto;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 12px 14px 18px;
+    background-color: #fff;
+    border: 2px solid #616467;
+    color: #616467;
+    transition-duration: 0.3s;
+}
+.btn-dky:hover,.btn-dky:focus{
+    background-color: #616467;
+    color: #fff;
+    text-decoration: none;
+}
+.btn-dky:active{
+    background-color: #d4d4d4;
+    color: #616467;
+}
+.check{
+    padding-top: 20px;
+    margin-top: 30px;
+    border-top: 2px solid black;
+}

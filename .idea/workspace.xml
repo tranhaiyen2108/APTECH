@@ -2,13 +2,89 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f381bb8a-2076-48fb-bf22-e36940f1345f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/musicnj/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/bootstrap337/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/bootstrap337/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/bootstrap337/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/bootstrap337/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/bootstrap337/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/bootstrap337/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/bootstrap337/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/bootstrap337/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/bootstrap337/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/bootstrap337/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/bootstrap337/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/bootstrap337/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/bootstrap337/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/bootstrap337/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/bootstrap337/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/bootstrap337/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/css/baitap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/css/dangki.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/css/dangnhap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/css/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/css/premium.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/css/taixuong.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/css/trogiup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/font/css/all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/font/css/all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/font/css/brands.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/font/css/brands.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/font/css/fontawesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/font/css/fontawesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/font/css/regular.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/font/css/regular.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/font/css/solid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/font/css/solid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/font/css/svg-with-js.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/font/css/svg-with-js.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/font/css/v4-shims.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/font/css/v4-shims.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/font/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/font/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/font/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/font/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/font/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/font/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/font/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/font/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/font/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/font/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/font/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/font/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/font/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/font/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/font/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/imgs/HomPageBackground.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/imgs/Piano-piano-38705811-1600-900.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/imgs/credit card.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/imgs/fb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/imgs/img_item_menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/imgs/insta.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/imgs/momo_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/imgs/premium.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/imgs/premium_dancing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/imgs/premium_dancing_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/imgs/spotify-logo-png-10069.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/imgs/spotifyIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/imgs/twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/public/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/views/dangky.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/views/dangnhap.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/views/head.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/views/home_page.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/views/premium.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/views/taixuong.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicnj/views/trogiup.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/.idea/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baitapnhom/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/baitapnhom/css/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baitapnhom/css/premium.css" beforeDir="false" afterPath="$PROJECT_DIR$/baitapnhom/css/premium.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baitapnhom/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/baitapnhom/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baitapnhom/premium.html" beforeDir="false" afterPath="$PROJECT_DIR$/baitapnhom/premium.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baitapnhom/taixuong.html" beforeDir="false" afterPath="$PROJECT_DIR$/baitapnhom/taixuong.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baitapnhom/trogiup.html" beforeDir="false" afterPath="$PROJECT_DIR$/baitapnhom/trogiup.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +148,13 @@
       <workItem from="1583922535794" duration="28000" />
       <workItem from="1583922979840" duration="52000" />
       <workItem from="1583924886512" duration="721000" />
+      <workItem from="1584016632846" duration="1531000" />
+      <workItem from="1584061548316" duration="17000" />
+      <workItem from="1584080341458" duration="27000" />
+      <workItem from="1584328882845" duration="216000" />
+      <workItem from="1584358355766" duration="227000" />
+      <workItem from="1584402571946" duration="1436000" />
+      <workItem from="1584409112042" duration="1000" />
     </task>
     <servers />
   </component>
@@ -79,10 +162,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="505" y="121" key="FileChooserDialogImpl" timestamp="1583922558532">
+    <state x="505" y="121" key="FileChooserDialogImpl" timestamp="1584402694031">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1582826559060" />
-    <state x="505" y="121" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583922558532" />
+    <state x="505" y="121" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1584402694031" />
   </component>
 </project>
