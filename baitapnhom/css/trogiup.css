@@ -4,13 +4,13 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+/*header*/
 .brand {
     position : fixed;
     top: 0px;
     width: 100%;
-    z-index: 2;
+    z-index: 1;
     backdrop-filter: opacity(40%);
-    background-color: transparent;
 }
 
 .brandmain{
@@ -33,13 +33,15 @@
     padding: 28px 17px;
     margin: 0px;
     color: white;
+
 }
-.thongtin_brand a:hover{
-    color: #1ed760;
+.thongtin_brand a:focus{
+    color: #fff;
     text-decoration: none;
 }
-.thongtin_brand .help{
+.thongtin_brand a:hover,.thongtin_brand a:active{
     color: #1ed760;
+    text-decoration: none;
 }
 .ngancachbrand  {
     margin: auto 17px;
@@ -54,6 +56,10 @@
     font-style: normal;
     font-weight: bolder;
 }
+.thongtin_brand .help{
+    color: #1ed760!important;
+}
+
 .bodymain {
     /*padding: 0px 17px;*/
     padding-top: 80px;
@@ -167,7 +173,9 @@ input:focus::placeholder{
     margin-top: 60px;
     margin-left: -8px;
     margin-right: -8px;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .categories{
     float: left;
@@ -205,6 +213,10 @@ input:focus::placeholder{
     color: #1e3264;
 }
 .categories .m:active{
+    text-decoration: none;
+    color: #2d46b9;
+}
+.categories .m:focus{
     text-decoration: none;
     color: #2d46b9;
 }
@@ -298,6 +310,10 @@ input:focus::placeholder{
     background-color: #1e3264;
     text-decoration: none;
 }
+.community .anwser:active,.community .anwser:focus{
+    background-color: #2d46b9;
+    text-decoration: none;
+}
 .feature{
     background-color: #f54a3a;
     position: relative;
@@ -388,7 +404,11 @@ input:focus::placeholder{
     color: #1e3264;
     border-bottom: 1px solid #1e3264;
 }
-
+.feature a:active,.feature a:focus{
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid #fff;
+}
 .ctboxctn{
     float: right!important;
 }
@@ -454,6 +474,10 @@ input:focus::placeholder{
 }
 .spotify .download:hover{
     background-color: #1e3264;
+    text-decoration: none;
+}
+.spotify .download:active,.spotify .download:focus{
+    background-color: #2d46b9;
     text-decoration: none;
 }
 footer  {

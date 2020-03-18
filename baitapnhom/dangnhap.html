@@ -2,66 +2,151 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Đăng nhập - Spotify</title>
-    <link rel="stylesheet" href="css/dangnhap.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./libra/font/css/all.css" type="text/css"/>
+    <link rel="stylesheet" href="libra/bootstrap3.337/css/bootstrap.css">
+    <link rel="stylesheet" href="css/dangnhap.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Đăng nhập - Spotify</title>
 
 </head>
 <body>
-<div id="maina">
+<div class='brand'>
+    <div class='container'>
+        <div class='brandmain'>
+            <div class='imgbrand'>
+                <a href='http://baitapnhom.herokuapp.com/home_page.html'><img src='imgs/spotifyIcon.png' width='132px' height='40px'/></a>
+            </div>
+            <div class='thongtinbrand'>
+                <p class='thongtin_brand'><a href='https://baitapnhom.herokuapp.com/premium.html'>Premium</a></p>
+                <p class='thongtin_brand'><a href='http://baitapnhom.herokuapp.com/trogiup.html'>Trợ giúp</a></p>
+                <p class='thongtin_brand'><a href='http://baitapnhom.herokuapp.com/taixuong.html'>Tải xuống</a></p>
+                <p class='ngancachbrand'>|</p>
+                <p class='thongtin_brand'><a href='http://baitapnhom.herokuapp.com/dangky.html'>Đăng ký</a></p>
+                <p class='thongtin_brand'><a href='http://baitapnhom.herokuapp.com/dangnhap.html' class="login">Đăng nhập</a></p>
+            </div>
+        </div>
+    </div>
 </div>
-        <div class='brand'>
-            <div class='container'>
-                <div class='brandmain'>
-                    <div class='imgbrand'>
-                        <a href='http://baitapnhom.herokuapp.com/home_page.html'><img src='imgs/spotifyIcon.png' width='132px' height='40px'/></a>
-                    </div>
-                    <div class='thongtinbrand'>
-                        <p class='thongtin_brand'><a href='https://baitapnhom.herokuapp.com/premium.html'>Premium</a></p>
-                        <p class='thongtin_brand'><a href='http://baitapnhom.herokuapp.com/trogiup.html' >Trợ giúp</a></p>
-                        <p class='thongtin_brand'><a href='http://baitapnhom.herokuapp.com/taixuong.html'>Tải xuống</a></p>
-                        <p class='ngancachbrand'>|</p>
-                        <p class='thongtin_brand'><a href='http://baitapnhom.herokuapp.com/dangky.html'>Đăng ký</a></p>
-                        <p class='thongtin_brand'><a href='http://baitapnhom.herokuapp.com/dangnhap.html' class="help">Đăng nhập</a></p>
-                    </div>
+<div class="bodymain">
+    <div class="signup">
+        <div class="signup_header">
+            <div class="container">
+                <div class="box-content">
+                    <a href="/" class="spotify-logo"></a>
                 </div>
             </div>
         </div>
-
-<div id="duoi">
-    <p>Để tiếp tục, hãy đăng nhập vào Spotify.</p>
-    <a href="https://www.facebook.com/v2.2/dialog/oauth?app_id=174829003346&cbt=1583843878376&channel_url=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D46%23cb%3Df1eeeb8e2937f2c%26domain%3Dwww.spotify.com%26origin%3Dhttps%253A%252F%252Fwww.spotify.com%252Ff3168ec3f0f2528%26relation%3Dopener&client_id=174829003346&display=popup&domain=www.spotify.com&e2e=%7B%7D&fallback_redirect_uri=https%3A%2F%2Fwww.spotify.com%2Fvn-vi%2Fsignup%2F&locale=en_US&logger_id=f1a26cfc4fb80f8&origin=1&redirect_uri=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D46%23cb%3Df3ba607c92b3ff%26domain%3Dwww.spotify.com%26origin%3Dhttps%253A%252F%252Fwww.spotify.com%252Ff3168ec3f0f2528%26relation%3Dopener%26frame%3Df515586b4c548&response_type=token%2Csigned_request%2Cgraph_domain&scope=email%2Cuser_birthday%2Cpublic_profile%2Cuser_friends&sdk=joey&version=v2.2"><h6 class="face"><span><b>TIẾP TỤC VỚI FACEBOOK</b></span></h6></a>
-    <a href="https://appleid.apple.com/auth/authorize?client_id=com.spotify.accounts&response_type=code&response_mode=form_post&scope=name%20email&state=AQBORBhmKnLDovXCQPOKIxBUY0Ibw6bFvmfDwZcQAZIgK7tzm2OdDWcjo%2FIIXSx26iT4WmV4Nx4KHNvloDRYqDXwxz%2FNnph4cwqc5vVfwSdmzD8%3D&redirect_uri=https%3A%2F%2Faccounts.spotify.com%2Foauth%2Fapple%2Fredirect"><h6 class="apple"><span><b>TIẾP TỤC VỚI APPLE</b></span></h6></a>
-    <p>hoặc</p>
-    <section class="section">
-        <div class="container">
-            <form action="action_page.php">
-                <div id="giua">
-                    <input type="email" id="register-email" name="signup_form[email]" required="required" maxlength="100"
-                           placeholder="Địa chỉ email hoặc tên người dùng" data-msg-email="Địa chỉ email bạn nhập không hợp lệ." data-msg-remote="Chúng
-                            tôi rất tiếc, email đó đã được sử dụng." data-msg-required="Vui lòng nhập email của bạn." data-rule-remote="/vn-vi/xhr/json/isEmailAvailable.php">
-                    <input type="password" id="register-password" name="signup_form[password]" required="required" autocomplete="off" maxlength="100" placeholder="Mật khẩu"
-                           data-msg-maxlength="Mật khẩu của bạn quá dài." data-msg-minlength="Mật khẩu quá ngắn." data-msg-required="Nhập mật khẩu để tiếp tục." data-rule-maxlength="100" data-rule-minlength="8">
+        <div class="signup_body">
+            <div class="container">
+                <div class="box-content">
+                    <section class="signup_select">
+                        <form action="#" name="signup_fb" method="post">
+                            <div class="content">
+                                <p class="next">Để tiếp tục, hãy đăng nhập vào Spotify.</p>
+                                <a href="#" class="btn btn-block btn-facebook"><i class="fab fa-facebook"></i> Tiếp tục với Facebook</a>
+                                <a href="#" class="btn btn-block btn-black"><i class="fab fa-apple"></i> Tiếp tục với Apple</a>
+                                <strong class="line_thru">hoặc</strong>
+                            </div>
+                        </form>
+                    </section>
+                    <section class="register">
+                        <div class="content">
+                        </div>
+                        <div class="modal-body">
+                            <form action="#" method="post">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" name="email" placeholder="Địa chỉ email hoặc tên người dùng" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" name="password" placeholder="Mật khẩu" required>
+                                </div>
+                                <div class="row row-submit">
+                                    <div class="col-xs-12 col-sm-6">
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox" name="remember">
+                                                Hãy nhớ tôi
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6">
+                                        <button id="register_button" class="btn btn-success btn-block">
+                                            Đăng nhập
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                            <p class="primary notice">
+                                <a href="#" id="register_login">Quên mật khẩu của bạn?</a>
+                            </p>
+                            <p class="next">
+                                Bạn chưa có tài khoản?
+                            </p>
+                            <a href="signup" class="btn btn-block btn-dky">Đăng ký spotify</a>
+                            <p class="check notice">
+                                Nếu bạn nhấp vào "Đăng nhập bằng Facebook" và không phải là người dùng Spotify, bạn sẽ phải đăng ký và chấp thuận
+                                <a href="#">các Điều khoản & Điều kiện và Chính sách Quyền riêng tư của Spotify.</a>
+                            </p>
+                        </div>
+                    </section>
                 </div>
-               <div id="duoi1">
-                    <br><label><input type="checkbox" name="condition"/>Hãy nhớ tôi</label>
-                </div>
-                    <button type="submit" class="register-button-email-submit">Đăng nhập</button>
-                <p><a href="https://www.spotify.com/vn-vi/password-reset/">Quên mật khẩu của bạn?</a></p>
-                <div class="dangki">
-                    <p>Bạn chưa có tài khoản?</p>
-                    <a href="http://baitapnhom.herokuapp.com/dangky.html"><h6><span><b>Đăng ký SPOTIFY</b></span></h6></a>
-                </div>
-                <div class="dieu">Nếu bạn nhấp vào "Đăng nhập bằng Facebook" và không phải là người dùng Spotify, bạn sẽ phải đăng ký và chấp thuận
-                    <a href="https://www.spotify.com/vn-vi/legal/end-user-agreement/plain/">các Điều khoản & Điều kiện</a> và
-                    <a href="https://www.spotify.com/vn-vi/legal/privacy-policy/plain/">Chính sách Quyền riêng tư của Spotify.</a></div>
-            </form>
+            </div>
         </div>
-    </section>
+    </div>
 </div>
+<footer >
+    <div class='container'>
+        <div class='footer1'>
+            <div class='left_footer'>
+                <div class='img_footer'>
+                    <a href="http://baitapnhom.herokuapp.com"><img src='imgs/img_item_menu.png' width='132px' height='40px' /></a>
+                </div>
+                <div class='thongtin_footer'>
+                    <p class='thumnucdau_thongtin_footer'>Công ty</p>
+                    <p class='thumnuc_thongtin_footer'><a href="#">Giới thiệu</a></p>
+                    <p class='thumnuc_thongtin_footer'><a href="#">Việc làm</a></p>
+                    <p class='thumnuc_thongtin_footer'><a href="#">For the Record</a></p>
+
+                </div>
+                <div  class='thongtin_footer'>
+                    <p class='thumnucdau_thongtin_footer'>Cộng đồng</p>
+                    <p class='thumnuc_thongtin_footer'><a href="#">Dành cho các nghệ sĩ</a></p>
+                    <p class='thumnuc_thongtin_footer'><a href="#">Nhà phát triển</a></p>
+                    <p class='thumnuc_thongtin_footer'><a href="#">Nhãn hiệu</a></p>
+                    <p class='thumnuc_thongtin_footer'><a href="#">Nhà đầu tư</a></p>
+                    <p class='thumnuc_thongtin_footer'><a href="#">Nhà cung cấp</a></p>
+                </div>
+                <div  class='thongtin_footer'>
+                    <p class='thumnucdau_thongtin_footer'>Liên kết hữu ích</p>
+                    <p class='thumnuc_thongtin_footer'><a href="#">Trợ giúp</a></p>
+                    <p class='thumnuc_thongtin_footer'><a href="#">Trình phát Web</a></p>
+                    <p class='thumnuc_thongtin_footer'><a href="#">Ứng dụng di động Miễn phí</a></p>
+                </div>
+            </div>
+            <div class='right_footer'>
+                <a href="#"><img src='imgs/insta.png' width='54px' height='54px' class='img_hinhanh'/></a>
+                <a href="#"><img src='imgs/twitter.png' width='54px' height='54px'class='img_hinhanh' /></a>
+                <a href="#"><img src='imgs/fb.png' width='54px' height='54px' /></a>
+            </div>
+        </div>
+        <div class='footer2'>
+            <div class='vietnam'>
+                <a href="#"><p>Việt Nam &nbsp;&nbsp;<img src="https://sp-bootstrap.global.ssl.fastly.net/8.12.1/images/flags/vn.svg" width="25px" height="20px"/></p></a>
+            </div>
+            <div class='footer_gioithieu'>
+                <div class='left_footer_gioithieu'>
+                    <p><a href="#">Pháp lý</a></p>
+                    <p><a href="#">Trung tâm bảo mật</a></p>
+                    <p><a href="#">Chính sách quyền riêng tư</a></p>
+                    <p><a href="#">Cookies</a></p>
+                    <p><a href="#">Giớt thiệu quảng cáo</a></p>
+                </div>
+                <p>© 2020 Spotify AB</p>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

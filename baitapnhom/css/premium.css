@@ -1,16 +1,16 @@
-* {
+*{
+    margin: 0;
     padding: 0;
-    margin : 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+/*header*/
 .brand {
     position : fixed;
-    top: 0;
+    top: 0px;
     width: 100%;
-    z-index: 2;
+    z-index: 1;
     backdrop-filter: opacity(40%);
-    background-color: transparent;
 }
 
 .brandmain{
@@ -31,20 +31,22 @@
 }
 .thongtin_brand {
     padding: 28px 17px;
-    margin: 0;
+    margin: 0px;
     color: white;
+
 }
-.thongtin_brand a:hover{
-    color: #1ed760;
+.thongtin_brand a:focus{
+    color: #fff;
     text-decoration: none;
 }
-.thongtin_brand .premium{
+.thongtin_brand a:hover,.thongtin_brand a:active{
     color: #1ed760;
+    text-decoration: none;
 }
 .ngancachbrand  {
     margin: auto 17px;
     color: white;
-    padding: 0;
+    padding: 0px;
 }
 .thongtin_brand a {
     color: white;
@@ -54,72 +56,11 @@
     font-style: normal;
     font-weight: bolder;
 }
-/*.body{*/
-/*    min-height: 100vh;*/
-/*    display: flex;*/
-/*    flex-direction: column*/
-/*}*/
-/*@media (min-width: 992px) {*/
-/*    .backGround {*/
-/*        background: url("https://campaigns-test.scdn.co/images/premium_dancer.png")  no-repeat, url('../imgs/premium.jpg') repeat;*/
-/*        background-size: 450px, cover;*/
-/*        background-position: right bottom, left top;*/
-/*        !*background: url(img_flwr.gif) right bottom no-repeat, url(paper.gif) left top repeat;*!*/
-/*        position: relative;*/
-/*    }*/
-/*}*/
-/*@media (min-width: 992px){*/
-/*    .brand {*/
-/*        position : relative;*/
-/*        background-color: black;*/
-/*        top: 0;*/
-/*        width: 100%;*/
-/*        z-index: 2;*/
-/*        min-height: 54px;*/
-/*    }*/
-/*}*/
-/*.brandMain{*/
-/*    display :flex;*/
-/*    margin: 0 auto;*/
-/*    width: 1000px;*/
-/*}*/
-/*.imgbrand {*/
-/*    display : flex;*/
-/*    align-items: center;*/
-/*    width: 30%;*/
-/*}*/
 
-/*@media (min-width: 992px){*/
-/*    .navigation{*/
-/*        display: inline-block;*/
-/*    }*/
-/*}*/
-/*.navigation{*/
-/*    width: 70%;*/
-/*}*/
-/*.thongtinbrand {*/
-/*    display: flex;*/
-/*    justify-content: flex-end;*/
-/*}*/
-/*.thongtin_brand {*/
-/*    padding: 28px 17px;*/
-/*    margin: 0;*/
-/*    list-style: none;*/
-/*}*/
-/*.thongtin_brand a{*/
-/*    text-decoration: none;*/
-/*    !*font-family: 'Roboto', sans-serif;*!*/
-/*    color: white;*/
-/*    font-size:16px;*/
-/*    line-height:24px;*/
-/*    font-weight: bolder;*/
-/*}*/
-/*.ngancachbrand  {*/
-/*    margin: auto 17px;*/
-/*    padding: 0;*/
-/*    color: white;*/
-/*    list-style: none*/
-/*}*/
+.thongtin_brand .premium{
+    color: #1ed760!important;
+}
+
 .bodyMain {
     padding-top: 80px;
     background: url("https://campaigns-test.scdn.co/images/premium_dancer.png")  no-repeat, url('../imgs/premium.jpg') repeat;
@@ -145,7 +86,7 @@
     display: inline-block;
     font-size: 70px;
     text-align: left;
-    color: #509bf5;
+    color: #2d46b9;
     padding-top: 7%;
 }
 .text2{
@@ -153,15 +94,15 @@
     font-weight: bold;
     letter-spacing: -0.04em;
     margin: 30px 0 30px 0;
-    color: #509bf5;
-    font-size: 30px;
+    color: #2d46b9;
+    font-size: 25px;
 }
 .text3{
-    font-size: 12px;
-    color: #509bf5;
+    font-size: 13px;
+    color: #2d46b9;
 }
 .text3 a{
-    color: #509bf5;
+    color: white;
     text-decoration: underline;
 }
 .text3 a:hover{
@@ -294,13 +235,14 @@
     border: 1px solid lightgrey;
     border-radius: 25px;
     padding: 30px 20px;
-    margin: 0 auto;
     height:334.4px;
     display: flex;
     flex-direction: column;
     width: 290px;
     box-shadow: 5px 5px 10px 10px #f2f2f2;
     position: relative;
+    justify-content: center;
+    margin: 0 auto;
 }
 .text8{
     color: white;

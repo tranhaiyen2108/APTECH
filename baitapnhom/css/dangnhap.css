@@ -4,15 +4,13 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+/*header*/
 .brand {
     position : fixed;
-    top: 0;
+    top: 0px;
     width: 100%;
-    z-index: 2;
-    backdrop-filter: opacity(0%);
-    background-color: transparent;
-    height: 80px;
-    border-bottom: 1px solid #88898c;
+    z-index: 1;
+    backdrop-filter: opacity(40%);
 }
 
 .brandmain{
@@ -30,30 +28,25 @@
     display: flex;
     justify-content: flex-end;
     width: 70%;
-
-}
-body {
-    background-image: url("../imgs/Piano-piano-38705811-1600-900.jpg");
-    width: 100%;
-    height: 100%;
-    background-size: cover;
 }
 .thongtin_brand {
     padding: 28px 17px;
-    margin: 0;
+    margin: 0px;
     color: white;
+
 }
-.thongtin_brand a:hover{
-    color: #1ed760;
+.thongtin_brand a:focus{
+    color: #fff;
     text-decoration: none;
 }
-.thongtin_brand .help{
+.thongtin_brand a:hover,.thongtin_brand a:active{
     color: #1ed760;
+    text-decoration: none;
 }
 .ngancachbrand  {
     margin: auto 17px;
     color: white;
-    padding: 0;
+    padding: 0px;
 }
 .thongtin_brand a {
     color: white;
@@ -63,134 +56,279 @@ body {
     font-style: normal;
     font-weight: bolder;
 }
-#maina{
-    width: 100%;
-    height: 80px;
+.thongtin_brand .login{
+    color: #1ed760!important;
 }
-#giua input {
-    float: left;
-    margin: 10px 0 10px;
-    font-size: 20px;
-    line-height: 1.25;
-    color: black;
-    width: 100%;
-    height: 50px;
-    opacity: 0.5;
-}
-.regi{
-    margin: 10px 0;
-    font-size: 24px;
-    color: red;
-    width: 100%;
-    height: 50px;
-}
-.face{
-    opacity: 0.7;
-    width: 320px ;
-    height: 50px;
-    margin: 20px auto;
-    text-align: center;
-    font-size: 18px;
-    color: #ffffff;
-    padding:16px 15px 0;
-    text-transform: uppercase;
-    border-radius: 50px;
-    background-color: #3B5998;
-}
-.apple {
-    opacity: 0.7;
-    width: 320px;
-    height: 50px;
-    margin: 20px auto;
-    text-align: center;
-    font-size: 18px;
-    color: #ffffff;
-    padding: 16px 15px 0;
-    text-transform: uppercase;
-    border-radius: 50px;
-    background-color: black;
-}
-#duoi p{
-    margin-top: 18px;
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-}
-img{
 
-    width: 132px;
-    height: 40px;
+.bodymain {
+    /*padding: 0px 17px;*/
+    padding-top: 80px;
+    background-image: url("https://cdn.pixabay.com/photo/2016/03/27/07/32/light-1282314__340.jpg");
+    background-size: cover;
 }
-#logo{
+.signup{
+    color: #222326;
+    min-width: 320px;
+}
+.signup_header{
+    border-bottom: 2px solid black;
+}
+.box-content{
+    margin: 0 auto;
+    max-width: 430px;
+}
+.spotify-logo{
     width: 197px;
     height: 59px;
-    margin: auto;
+    background: url("../imgs/Spotify_Logo_CMYK_Black.png") transparent no-repeat center center;
+    background-size: contain;
+    display: block;
+    margin: 24px auto;
 }
-#duoi {
-    width: 426px;
-    height: 800px;
-    margin: auto;
-}
-#duoi1{
-    text-decoration: none;
-    font-size: 25px;
-    color: #88898c;
-}
-.chu p{
-    float: left;
-    color: #88898c;
-    font-size: 555px;
-}
-a{
-    text-decoration: none;
-}
-.register-button-email-submit{
-    opacity: 0.7;
-    float: right;
-    width: 200px ;
-    height: 56px;
-    margin: -48px -4px;
+.next{
+    padding: 0 15px;
+    font-size: 16px;
+    font-weight: 600;
     text-align: center;
-    font-size: 20px;
-    color: #ffffff;
+    margin: 30px auto 0;
+}
+.btn-facebook {
+    color: #FFF;
+    background-color: #3B5998;
+    height: 48px;
+    margin: 14px auto;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 14px;
     text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 14px 14px 18px;
+}
+.btn-facebook:hover,.btn-facebook:focus{
+    background-color: #3a61b3;
+    color: #fff;
+}
+.btn-facebook:active{
+    background-color: #3B5998;
+    color: #fff;
+}
+.btn-black{
+    color: #FFF;
+    background-color: #000;
+    height: 48px;
+    margin: 14px auto;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 14px 14px 18px;
+}
+.btn-black:hover,.btn-black:focus{
+    background-color: #333;
+    color: #fff;
+}
+.btn-black:active{
+    background-color: #000;
+    color: #fff;
+}
+.imgfb{
+    width: 10px;
+    height: 10px;
+    background-color: #3B5998;
+}
+.line_thru{
+    display: block;
+    font-size: .875em;
+    margin-bottom: 1em;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+    font-weight: 500;
+}
+.register .content{
+    padding: 0;
+}
+.form-control{
+    border-radius: 0px!important;
+    height: 40px!important;
+}
+.checkbox{
+    padding-left: 5px;
+}
+input[type=checkbox][name=remember]{
+    width: 1.25em;
+    height: 1.25em;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 2px;
+}
+input[type=checkbox][name=remember]:focus:checked{
     background-color: #1db954;
-    padding: 15px 30px;
-    border-radius: 50px;
+    border-color: #1db954;
 }
-.dangki{
-    border-top: solid 1px #88898c;
-}
-.dangki h6{
-    width: 400px ;
-    height: 60px;
-    margin: 20px auto;
+.notice{
+    font-size: 12px;
     text-align: center;
-    font-size: 18px;
-    color: black;
-    padding:20px 15px 0;
-    text-transform: uppercase;
-    border-radius: 50px;
-    border: solid 1px black;
+    margin-bottom: 12px;
 }
-.dieu{
-    text-align: justify;
-    font-size: 13px;
-    border-top: solid 1px #88898c;
-    color: #88898c;
+.notice a{
+    color: #1DB954;
 }
-.face:hover{
-    background-color: darkgrey;
-}
-.dangki h6:hover{
-    background-color: darkgrey;
-}
-.apple:hover{
-    background-color: darkgrey;
-}
-.register-button-email-submit:hover{
-    background-color: darkgrey;
-}
-#duoi1 a{
+.notice a:hover,a:focus{
+    color: #1ED760;
     text-decoration: none;
+}
+.notice a:active{
+    color: #1DB954;
+    text-decoration: none;
+}
+.btn-success{
+    height: 47.6px;
+    min-width: 160px;
+    margin: 5px auto;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 12px 14px 18px;
+}
+.primary{
+    margin: 8px 0 16px;
+    font-size: 15px;
+    font-weight: 500;
+    padding-bottom: 50px;
+    border-bottom: 2px solid #000;
+}
+.btn-dky{
+    height: 47.6px;
+    margin: 5px auto;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 12px 14px 18px;
+    background-color: #fff;
+    border: 2px solid #616467;
+    color: #616467;
+    transition-duration: 0.3s;
+}
+.btn-dky:hover,.btn-dky:focus{
+    background-color: #616467;
+    color: #fff;
+    text-decoration: none;
+}
+.btn-dky:active{
+    background-color: #d4d4d4;
+    color: #616467;
+}
+.check{
+    padding-top: 20px;
+    margin-top: 30px;
+    border-top: 2px solid black;
+}
+
+/*footer*/
+
+footer  {
+    color: white;
+    background-color: black;
+    padding : 80px 0px 50px 0px;
+}
+
+.footer1 {
+    display: flex;
+}
+.left_footer {
+    width: 70%;
+    display :flex;
+}
+.right_footer  {
+    width: 30%;
+    display : flex;
+    justify-content: flex-end;
+    margin-top:20px;
+}
+.img_footer {
+    width: 25%;
+}
+.thongtin_footer {
+    width: 25%;
+}
+.thumnuc_thongtin_footer  {
+    width: 80%;
+    line-height:24px;
+    font-weight:400;
+    font-size:16px;
+    padding: 3px 0px 15px 0px;
+    margin: 0px;
+
+
+}
+.thumnuc_thongtin_footer a{
+    color: #fff;
+}
+.thumnuc_thongtin_footer a:hover{
+    color: #1ed760;
+    text-decoration: none;
+}
+.thumnucdau_thongtin_footer {
+    margin: 20px 0px;
+    font-size:12px;
+    font-weight:900;
+    letter-spacing:0.96px;
+    line-height:16.8px;
+    color:rgb(145, 148, 150);
+    text-transform: uppercase;
+}
+.img_hinhanh {
+    margin: 0px 15px 0px 0px;
+}
+.footer2 {
+    font-size:12px;
+    font-weight:400;
+    line-height:18px;
+    color:rgb(145, 148, 150);
+    margin-top: 30px;
+}
+.vietnam {
+    display :flex;
+    justify-content: flex-end;
+}
+.vietnam p {
+    margin: 0px;
+}
+.vietnam a{
+    color:rgb(145, 148, 150);
+}
+.vietnam a:hover{
+    color: #1ed760;
+    text-decoration: none;
+}
+.footer_gioithieu{
+    display : flex;
+    justify-content: space-between;
+}
+.footer_gioithieu p {
+    margin: 12px 0px;
+}
+.footer_gioithieu a{
+    color:rgb(145, 148, 150);
+}
+.footer_gioithieu a:hover{
+    color: #1ed760;
+    text-decoration: none;
+}
+.left_footer_gioithieu {
+    display : flex;
+    padding: 0px 0px 0px 15px;
+}
+.left_footer_gioithieu p {
+    margin-right: 24px;
 }
