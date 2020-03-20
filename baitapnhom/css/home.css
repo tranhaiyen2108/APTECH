@@ -1,16 +1,16 @@
-* {
+*{
+    margin: 0;
     padding: 0;
-    margin : 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+/*header*/
 .brand {
     position : fixed;
     top: 0px;
     width: 100%;
-    z-index: 2;
+    z-index: 1;
     backdrop-filter: opacity(40%);
-    background-color: transparent;
 }
 
 .brandmain{
@@ -33,13 +33,15 @@
     padding: 28px 17px;
     margin: 0px;
     color: white;
+
 }
-.thongtin_brand a:hover{
-    color: #1ed760;
+.thongtin_brand a:focus{
+    color: #fff;
     text-decoration: none;
 }
-.thongtin_brand .help{
+.thongtin_brand a:hover,.thongtin_brand a:active{
     color: #1ed760;
+    text-decoration: none;
 }
 .ngancachbrand  {
     margin: auto 17px;
@@ -54,72 +56,7 @@
     font-style: normal;
     font-weight: bolder;
 }
-/*.body{*/
-/*    min-height: 100vh;*/
-/*    display: flex;*/
-/*    flex-direction: column*/
-/*}*/
-/*@media (min-width: 992px){*/
-/*    .backGround{*/
-/*        background-image: url("../imgs/HomPageBackground.jpg");*/
-/*        background-repeat: no-repeat;*/
-/*        background-position:center center;*/
-/*        background-size: cover;*/
-/*        width: 100%;*/
-/*    }*/
-/*}*/
-/*@media (min-width: 992px){*/
-/*    .brand {*/
-/*        background-color: rgba(0, 0, 0, 0.6);*/
-/*        position : relative;*/
-/*        top: 0;*/
-/*        width: 100%;*/
-/*        z-index: 2;*/
-/*        min-height: 54px;*/
-/*    }*/
-/*}*/
-/*.brandMain{*/
-/*    display :flex;*/
-/*    margin: 0 auto;*/
-/*    width: 1000px;*/
-/*}*/
-/*.imgbrand {*/
-/*    display : flex;*/
-/*    align-items: center;*/
-/*    width: 30%;*/
-/*}*/
 
-/*@media (min-width: 992px){*/
-/*    .navigation{*/
-/*        display: inline-block;*/
-/*    }*/
-/*}*/
-/*.navigation{*/
-/*    width: 70%;*/
-/*}*/
-/*.thongtinbrand {*/
-/*    display: flex;*/
-/*    justify-content: flex-end;*/
-/*}*/
-/*.thongtin_brand {*/
-/*    padding: 28px 17px;*/
-/*    margin: 0;*/
-/*    list-style: none;*/
-/*}*/
-/*.thongtin_brand a{*/
-/*    text-decoration: none;*/
-/*    !*font-family: 'Roboto', sans-serif;*!*/
-/*    color: white;*/
-/*    font-size:16px;*/
-/*    line-height:24px;*/
-/*    font-weight: bolder;*/
-/*}*/
-/*.ngancachbrand  {*/
-/*    margin: auto 17px;*/
-/*    padding: 0;*/
-/*    color: white;*/
-/*    list-style: none*/
-/*}*/
 .bodyMain {
     background-image: url("../imgs/HomPageBackground.jpg");
     width: 100%;
@@ -214,11 +151,13 @@
 .space{
     margin-bottom: 10%;
 }
+
 footer  {
     color: white;
     background-color: black;
-    padding : 30px 0px 20px 0px;
+    padding : 80px 0px 50px 0px;
 }
+
 .footer1 {
     display: flex;
 }
@@ -245,6 +184,8 @@ footer  {
     font-size:16px;
     padding: 3px 0px 15px 0px;
     margin: 0px;
+
+
 }
 .thumnuc_thongtin_footer a{
     color: #fff;
@@ -302,10 +243,12 @@ footer  {
 }
 .left_footer_gioithieu {
     display : flex;
+    padding: 0px 0px 0px 15px;
 }
 .left_footer_gioithieu p {
     margin-right: 24px;
 }
+
 
 
 
