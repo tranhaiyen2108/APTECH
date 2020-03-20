@@ -98,7 +98,10 @@ jQuery(document).ready(function() {
     });
 
     // playlist elements - click
-
+    $('.playlist li').click(function () {
+        stopAudio();
+        initAudio($(this));
+    });
     // initialization - first element in playlist
     initAudio($('.playlist li:first-child'));
 
