@@ -162,28 +162,7 @@ input:focus::placeholder{
     text-decoration: none;
     color: #2d46b9;
 }
-.visible{
-    display: none!important;
-}
-.categories .showall{
-    display: inline-block;
-    margin: 10px 0 30px;
-    border-bottom: 1px solid #000;
-    color: #000;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: 16px;
-    letter-spacing: .1em;
-    line-height: 24px;
-}
-.categories .showall:hover{
-    text-decoration: none;
-    color: #1e3264;
-}
-.categories .showall:active{
-    text-decoration: none;
-    color: #2d46b9;
-}
+
 .community{
     background-color: #fff;
     position: relative;

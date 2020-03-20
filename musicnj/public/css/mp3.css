@@ -1,0 +1,202 @@
+.mp3{
+    background-image: url("https://cdn.pixabay.com/photo/2016/03/27/07/32/light-1282314__340.jpg");
+    background-size: cover;
+    padding-top: 1%;
+}
+.player {
+    background: transparent url("../imgs/player.png") no-repeat scroll center top;
+    height: 491px;
+    position: relative;
+    width: 430px;
+    z-index: 2;
+    margin: 0 auto;
+}
+.title, .artist {
+    font-family: verdana;
+    left: 20px;
+    position: absolute;
+
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+.title {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    top: 25px;
+}
+.artist {
+    color: #EEEEEE;
+    font-size: 12px;
+    top: 50px;
+}
+.pl {
+    background: transparent url("../imgs/spr.png") no-repeat scroll -274px -175px;
+    cursor: pointer;
+    height: 34px;
+    right: 20px;
+    position: absolute;
+    top: 40px;
+    width: 32px;
+    z-index: 1000;
+}
+.pl:hover {
+    top: 42px;
+}
+.cover {
+    background: transparent url(../data/cover1.png) no-repeat scroll center top;
+    background-size: 260px;
+    border-radius: 5px;
+    height: 300px;
+    position: absolute;
+    width: 300px;
+    bottom: 24%;
+    left: 50%;
+    margin-left: -140px;
+}
+
+.controls {
+    cursor: pointer;
+    height: 87px;
+    left: 130px;
+    position: absolute;
+    top: 335px;
+    width: 170px;
+}
+.controls .play, .controls .pause, .controls .rew, .controls .fwd {
+    background: transparent url("../imgs/controls.png") no-repeat scroll 0 0;
+    float: left;
+    height: 100%;
+
+}
+.controls .pause{
+    background: transparent url("../imgs/controls2.png") no-repeat scroll 0 0;
+    float: left;
+    height: 100%;
+
+}
+.controls .play {
+    background-position: -50px -12px;
+    width: 40%;
+    margin-top: 10px;
+    height: 70%;
+}
+.controls .pause {
+    background-position: -50px -12px;
+    display: none;
+    width: 40%;
+    margin-top: 10px;
+    height: 70%;
+}
+.controls .rew {
+    background-position: -54px -171px;
+    width: 30%;
+    margin-top: 20px;
+    height: 50%;
+}
+.controls .fwd {
+    background-position: -100px -171px;
+    width: 30%;
+    margin-top: 20px;
+    height: 50%;
+}
+
+.hidden {
+    display: none;
+}
+.controls .visible {
+    display: block;
+}
+.volume {
+    height: 11px;
+    right: 20px;
+    position: absolute;
+    top: 340px;
+    width: 70px;
+}
+.tracker {
+    height: 5px;
+    left: 10px;
+    position: absolute;
+    top: 330px;
+    width: 405px;
+}
+.ui-slider-range {
+    background: transparent url("../imgs/spr.png") no-repeat scroll 5px -222px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+.ui-slider-handle {
+    cursor: pointer;
+    height: 10px;
+    margin-left: -5px;
+    position: absolute;
+    top: 2px;
+    width: 10px;
+    z-index: 2;
+}
+.volume .ui-slider-handle {
+    background: url("../imgs/spr.png") no-repeat scroll -201px -188px rgba(0, 0, 0, 0);
+    height: 13px;
+    width: 13px;
+}
+.playlist {
+    background-color: rgba(255, 255, 255, 0.06);
+    border-radius: 5px 5px 5px 5px;
+    list-style-type: none;
+    margin: -78px auto 0;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    position: relative;
+    width: 360px;
+    height: 540px;
+    z-index: 3;
+}
+.playlist li {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    margin: 0 0 5px 15px;
+    border-radius: 50px;
+    padding-left: 10px;
+}
+.playlist li.active {
+    font-weight: bold;
+    font-style: italic;
+    background-color: #616467;
+}
+/*******Circle Animation ********/
+@keyframes colorBall {
+    from {
+        transform:rotate(360deg);
+    }
+    to {
+        transform:rotate(0deg);
+    }
+}
+@-moz-keyframes colorBall {
+    from {
+        -moz-transform:rotate(360deg);
+    }
+    to {
+        -moz-transform:rotate(0deg);
+    }
+}
+@-webkit-keyframes colorBall {
+    from {
+        -webkit-transform:rotate(360deg);
+    }
+    to {
+        -webkit-transform:rotate(0deg);
+    }
+}
+@-ms-keyframes colorBall {
+    from {
+        -ms-transform:rotate(360deg);
+    }
+    to {
+        -ms-transform:rotate(0deg);
+    }
+}
