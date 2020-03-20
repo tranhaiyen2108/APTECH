@@ -1,120 +1,140 @@
 [
   {
-    "image": "data/cover1.png",
+    "link": "../data/01.mp3",
+    "image": "../data/cover1.png",
     "top": 1,
     "song": "Hơn cả yêu",
     "singer":"Đức Phúc"
   },
   {
-    "image": "data/cover2.png",
+    "link": "../data/02.mp3",
+    "image": "../data/cover2.png",
     "top": 2,
     "song": "Sao anh chưa về nhà",
     "singer":"Amee ft Ricky Star"
   },
   {
-    "image": "data/cover3.png",
+    "link": "../data/03.mp3",
+    "image": "../data/cover3.png",
     "top": 3,
     "song": "Ai đợi mình được mãi",
     "singer":"Thanh Hưng"
   },
   {
-    "image": "data/cover4.png",
+    "link": "../data/04.mp3",
+    "image": "../data/cover4.png",
     "top": 4,
     "song": "Khóc cùng em",
     "singer":"Mr Siro ft Gray ft Wind"
   },
   {
-    "image": "data/cover5.png",
+    "link": "../data/05.mp3",
+    "image": "../data/cover5.png",
     "top": 5,
     "song": "Hai phút hơn",
     "singer":"Pháo"
   },
   {
-    "image": "data/cover6.png",
+    "link": "../data/06.mp3",
+    "image": "../data/cover6.png",
     "top": 6,
     "song": "Cứ tưởng thế nào",
     "singer":"Hương Ly"
   },
   {
-    "image": "data/cover7.png",
+    "link": "../data/07.mp3",
+    "image": "../data/cover7.png",
     "top": 7,
     "song": "Muốn cả thế giới biết anh yêu em",
     "singer":"Gin Tuấn Kiệt"
   },
   {
-    "image": "data/cover8.png",
+    "link": "../data/08.mp3",
+    "image": "../data/cover8.png",
     "top": 8,
     "song": "Sài Gòn của anh",
     "singer":"HuyR ft K-ICM"
   },
   {
-    "image": "data/cover9.png",
+    "link": "../data/09.mp3",
+    "image": "../data/cover9.png",
     "top": 9,
     "song": "Nếu em hết thương rồi",
     "singer":"Châu Khải Phong"
   },
   {
-    "image": "data/cover10.png",
+    "link": "../data/10.mp3",
+    "image": "../data/cover10.png",
     "top": 10,
     "song": "Cứ ngỡ là anh",
     "singer":"Đinh Tùng Huy"
   },
   {
-    "image": "data/cover11.png",
+    "link": "../data/11.mp3",
+    "image": "../data/cover11.png",
     "top": 11,
     "song": "Yếu đuối cho ai xem",
     "singer":"N Ly"
   },
   {
-    "image": "data/cover12.png",
+    "link": "../data/12.mp3",
+    "image": "../data/cover12.png",
     "top": 12,
     "song": "Nắm",
     "singer":"Minh Vương M4U ft Hương Ly"
   },
   {
-    "image": "data/cover13.png",
+    "link": "../data/13.mp3",
+    "image": "../data/cover13.png",
     "top": 13,
     "song": "Đừng chờ",
     "singer":"Quang Đông ft K-ICM"
   },
   {
-    "image": "data/cover14.png",
+    "link": "../data/14.mp3",
+    "image": "../data/cover14.png",
     "top": 14,
     "song": "Phụ tình",
     "singer":"Trịnh Đình Quang"
   },
   {
-    "image": "data/cover15.png",
+    "link": "../data/15.mp3",
+    "image": "../data/cover15.png",
     "top": 15,
     "song": "Hành lang cũ(Hạ nhớ)",
     "singer":"Long Nón Lá ft Masew"
   },
   {
-    "image": "data/cover16.png",
+    "link": "../data/16.mp3",
+    "image": "../data/cover16.png",
     "top": 16,
     "song": "Tặng anh cho cô ấy",
     "singer":"Hương Giang"
   },
   {
-    "image": "data/cover17.png",
+    "link": "../data/17.mp3",
+    "image": "../data/cover17.png",
     "top": 17,
     "song": "Đừng khóc nữa mà",
     "singer":"Gia Huy Singer"
   },
   {
-    "image": "data/cover18.png",
+    "link": "../data/18.mp3",
+    "image": "../data/cover18.png",
     "top": 18,
     "song": "Yêu một người tổn thương",
     "singer":"Nhật Phong"
   },
   {
-    "image": "data/cover19.png",
+    "link": "../data/19.mp3",
+    "image": "../data/cover19.png",
     "top": 19,
     "song": "Anh đi đi",
     "singer":"Hương Giang ft Erik ft ViruSs"
   },
   {
-    "image": "data/cover20.png",
+    "link": "../data/20.mp3",
+    "image": "../data/cover20.png",
     "top": 20,
     "song": "Duyên trời lấy 2",
     "singer":"Chung Thanh Duy"

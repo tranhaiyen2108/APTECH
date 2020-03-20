@@ -31,15 +31,15 @@
         <div class="row">
             <h1 class="chart_title col-xs-12 text-center" style="color: white;font-weight: bolder; font-size: 80px; padding-bottom: 50px; padding-top: 50px">Bảng xếp hạng</h1>
             <ul style="color: white">
-                <% charts.forEach(function (song) { %>
+                <% charts.forEach(function (item) { %>
                     <li class="col-xs-12" style="list-style:none">
                             <div class="col-xs-12">
-                                <a href="#mp3"><img src="<%= song.image %>" width="180px" height="140px" class="col-xs-2" style="border-radius: 100%"/></a>
+                                <a href="#mp3"><img src="<%= item.image %>" width="180px" height="140px" class="col-xs-2" style="border-radius: 100%"/></a>
                                 <div class="col-xs-10">
-                                    <h3 class="col-xs-12">Top <%= song.top %></h3>
+                                    <h3 class="col-xs-12">Top <%= item.top %></h3>
                                     <div class="col-xs-12">
-                                        <h4><%= song.song %></h4>
-                                        <a href="#mp3"><h5><%= song.singer %></h5></a>
+                                        <a href="#mp3"><h4><%= item.song %></h4></a>
+                                        <h5><%= item.singer %></h5>
                                     </div>
                                 </div>
                             </div>
@@ -68,26 +68,9 @@
             <div class="tracker"></div>
         </div>
         <ul class="playlist hidden">
-            <li audiourl="01.mp3" cover="cover1.png" artist="Đức Phúc">Hơn cả yêu</li>
-            <li audiourl="02.mp3" cover="cover2.png" artist="Amee ft Ricky Star">Sao anh chưa về nhà</li>
-            <li audiourl="03.mp3" cover="cover3.png" artist="Thanh Hưng">Ai đợi mình được mãi</li>
-            <li audiourl="04.mp3" cover="cover4.png" artist="Mr Siro ft Gray ft Wind">Khóc cùng em</li>
-            <li audiourl="05.mp3" cover="cover5.png" artist="Pháo">Hai phút hơn</li>
-            <li audiourl="06.mp3" cover="cover6.png" artist="Hương Ly">Cứ tưởng thế nào</li>
-            <li audiourl="07.mp3" cover="cover7.png" artist="Gin Tuấn Kiệt">Muốn cả thế giới biết anh yêu em</li>
-            <li audiourl="08.mp3" cover="cover8.png" artist="HuyR ft K-ICM">Sài Gòn của anh</li>
-            <li audiourl="09.mp3" cover="cover9.png" artist="Châu Khải Phong">Nếu em hết thương rồi</li>
-            <li audiourl="10.mp3" cover="cover10.png" artist="Đinh Tùng Huy">Cứ ngỡ là anh</li>
-            <li audiourl="11.mp3" cover="cover11.png" artist="N Ly">Yếu đuối cho ai xem</li>
-            <li audiourl="12.mp3" cover="cover12.png" artist="Minh Vương M4U ft Hương Ly">Nắm</li>
-            <li audiourl="13.mp3" cover="cover13.png" artist="Quang Đông ft K-ICM">Đừng chờ</li>
-            <li audiourl="14.mp3" cover="cover14.png" artist="Trịnh Đình Quang">Phụ tình</li>
-            <li audiourl="15.mp3" cover="cover15.png" artist="Long Nón Lá ft Masew">Hành lang cũ(Hạ nhớ)</li>
-            <li audiourl="16.mp3" cover="cover16.png" artist="Hương Giang">Tặng anh cho cô ấy</li>
-            <li audiourl="17.mp3" cover="cover17.png" artist="Gia Huy Singer">Đừng khóc nữa mà</li>
-            <li audiourl="18.mp3" cover="cover18.png" artist="Nhật Phong">Yêu một người tổn thương</li>
-            <li audiourl="19.mp3" cover="cover19.png" artist="Hương Giang ft Erik ft ViruSs">Anh đi đi</li>
-            <li audiourl="20.mp3" cover="cover20.png" artist="Chung Thanh Duy">Duyên trời lấy 2</li>
+            <% charts.forEach(function (item) { %>
+            <li audiourl="<%= item.link %>" cover="<%= item.image %>" artist="<%= item.singer %>"><%= item.song%></li>
+                <% }) %>
         </ul>
     </div>
 </div>
