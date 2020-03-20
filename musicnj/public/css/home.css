@@ -106,18 +106,31 @@
     border-radius: 50px;
     padding: 20px 50px;
     margin: 20px;
-    background-color: #616467;
-    border: 2px solid #fff;
-}
-.chart li:hover,li:focus,li:active{
+    border: 4px solid #616467;
     background-color: #d4d4d4;
     color: #616467;
+    transition-duration: 0.5s;
+    cursor: pointer;
 }
-.chart a{
-    text-decoration: none;
-    color: white;
+.chart li:hover{
+    background-color: #616467;
+    color: #fff;
 }
-.chart a:hover,a:active,a:focus{
-    /*color: #616467;*/
-    text-decoration: none;
+.chart li:active,li:focus{
+    background-color: #f2edd9;
+    color: #616467;
+    border: 4px solid #ff722e;
+}
+.lt-all,.lt-all:focus{
+    border: 2px solid white;
+    color: #ff722e;
+    transition-duration: 1s;
+}
+.lt-all:active{
+    border: 2px solid #1ed760;
+    color: red;
+}
+.lt-all:hover{
+    border: 2px solid red;
+    color: yellow;
 }

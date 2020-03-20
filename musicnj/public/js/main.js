@@ -102,6 +102,7 @@ jQuery(document).ready(function() {
         stopAudio();
         initAudio($(this));
     });
+
     // initialization - first element in playlist
     initAudio($('.playlist li:first-child'));
 
