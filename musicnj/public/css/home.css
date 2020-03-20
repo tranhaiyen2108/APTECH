@@ -102,16 +102,22 @@
     padding-bottom: 50px;
 }
 .chart li{
-    background-color: #616467;
-    border-radius: 70px;
+    /*background-color: #616467;*/
+    border-radius: 50px;
     padding: 20px 50px;
     margin: 20px;
+    background-color: #616467;
+    border: 2px solid #fff;
 }
-.chart a,a:focus{
+.chart li:hover,li:focus,li:active{
+    background-color: #d4d4d4;
+    color: #616467;
+}
+.chart a{
     text-decoration: none;
     color: white;
 }
-.chart a:hover, a:active{
-    color: black;
+.chart a:hover,a:active,a:focus{
+    /*color: #616467;*/
     text-decoration: none;
 }

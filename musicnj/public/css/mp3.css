@@ -167,6 +167,9 @@
     font-style: italic;
     background-color: #616467;
 }
+.playlist li:hover{
+    background-color: #616467;
+}
 /*******Circle Animation ********/
 @keyframes colorBall {
     from {
