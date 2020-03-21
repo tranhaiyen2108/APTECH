@@ -1,0 +1,40 @@
+[
+  {
+    "musicId": 1,
+    "image": "imgs/homelistimage-1.jfif",
+    "name": "After Hours",
+    "singer": "The weekend"
+  },
+  {
+    "musicId": 2,
+    "image": "imgs/homelistimage-2.jfif",
+    "name": "Colors",
+    "singer": "J Balvin"
+  },
+  {
+    "musicId": 3,
+    "image": "imgs/homelistimage-3.jfif",
+    "name": "Kelsea",
+    "singer": "Kelsea Balle"
+  }
+,
+  {
+    "musicId": 4,
+    "image": "imgs/homelistimage-4.jfif",
+    "name": "Action",
+    "singer": "John Legen"
+  }
+,
+  {
+    "musicId": 5,
+    "image": "imgs/homelistimage-5.jfif",
+    "name": "Kid Krow",
+    "singer": "Conan Grey"
+  },
+  {
+    "musicId": 6,
+    "image": "imgs/homelistimage-6.jfif",
+    "name": "Walk Em Down",
+    "singer": "NLE Choppa"
+  }
+]

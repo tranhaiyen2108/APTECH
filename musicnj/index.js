@@ -15,10 +15,10 @@ app.use(express.static('public'));
 app.set("view engine","ejs");
 
 app.get("/",function (req,res) {
-    var chart_text = fs.readFileSync("data/charts.json");
-    var charts = JSON.parse(chart_text);
+    var homeMusicList_text = fs.readFileSync("data/homeMusicList.json");
+    var homeMusicList = JSON.parse(homeMusicList_text);
     res.render('home_page',{
-        charts : charts,
+        homeMusicList : homeMusicList,
     });
 });
 
