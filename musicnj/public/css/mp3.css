@@ -2,9 +2,6 @@
     background-image: url("https://cdn.pixabay.com/photo/2016/03/27/07/32/light-1282314__340.jpg");
     background-size: cover;
     padding-top: 1%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .player {
     background: transparent url("../imgs/player.png") no-repeat scroll center top;
@@ -25,7 +22,7 @@
 }
 .title {
     color: #FFFFFF;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: bold;
     top: 25px;
 }
@@ -154,33 +151,21 @@
     padding-top: 15px;
     position: relative;
     width: 360px;
-    height: 640px;
+    height: 540px;
     z-index: 3;
 }
 .playlist li {
-    /*background-color: black;*/
-    /*color: white;*/
+    background-color: black;
+    color: white;
     cursor: pointer;
-    margin: 0 0 5px 5px;
+    margin: 0 0 5px 15px;
     border-radius: 50px;
-    padding: 1px 0 1px 20px;
-    background-color: #fff;
-    border: 2px solid #616467;
-    color: #616467;
+    padding-left: 10px;
 }
 .playlist li.active {
-    font-weight: 700;
+    font-weight: bold;
+    font-style: italic;
     background-color: #616467;
-    color: white;
-}
-.playlist li:hover,.playlist li:focus{
-    background-color: #616467;
-    color: #fff;
-}
-.playlist li:active{
-    background-color: #d4d4d4;
-    color: #616467;
-    border: 2px solid #616467;
 }
 /*******Circle Animation ********/
 @keyframes colorBall {
