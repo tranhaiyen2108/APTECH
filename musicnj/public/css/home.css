@@ -3,6 +3,7 @@
     width: 100%;
     height: auto;
     background-size: cover;
+    background-position: center center;
 }
 .bodyMain .homeTitle{
     width: 100%;
@@ -141,8 +142,11 @@
     box-shadow: 1px 1px 16px -2px rgba(0, 0, 0, 0.3);
     cursor: pointer;
 }
+.album-play-button {
+    margin: 35% auto;
+}
 .album-results .album-play-button h2 {
-    font-size: 18px;
+    font-size: 22px;
 }
 .album-results .album-play-icon svg {
     width: 25px;

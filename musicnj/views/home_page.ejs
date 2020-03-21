@@ -23,14 +23,14 @@
         </div>
         <div class="downloadButton col-xs-12">
             <div class="col-md-4"></div>
-            <a href="download" class="bt"><button class="col-xs-12 col-md-4" type="button">TẢI SPOTIFY MIỄN PHÍ</button></a>
+            <a href="http://music-nodejs.herokuapp.com/download" class="bt"><button class="col-xs-12 col-md-4" type="button">TẢI SPOTIFY MIỄN PHÍ</button></a>
         </div>
     </div>
 </section>
 <section class="section album-results-free">
     <div class="container">
         <div class="row downloadButton col-xs-12">
-            <h2 class="h1"><b>Đang tiềm kiếm nhạc?</b></h2>
+            <h2 class="h1"><b>Đang tìm kiếm nhạc?</b></h2>
             <p class="lead">Bắt đầu nghe các bản phát hành hay nhất.</p>
             <div class="col-md-4"></div>
             <a href="https://open.spotify.com/browser" class="bt"><button class="col-xs-12 col-md-4" type="button" style="background-color: white; border: 1px solid #0f0f0f"><span style="color: #0f0f0f">BẮT ĐẦU TRÌNH PHÁT TRÊN WEB</span></button></a>
@@ -44,15 +44,17 @@
                         <figure>
                             <div class="box">
                                 <div class="content">
-                                    <a href="#" role="button"><img class="img-responsive" src="<%= item.image%>" title="<%= item.name%>"alt="..."></a>
+                                    <a href="http://music-nodejs.herokuapp.com/artist/<%= item.musicId %>" role="button">
+                                        <img class="img-responsive" src="<%= item.image%>" title="<%= item.name%>"alt="...">
+                                    </a>
                                 </div>
                             </div>
                             <div class="hidden-xs content-overlay">
                                 <figcaption class="album-play-button">
-                                    <h2 style="color: white"><%= item.name%></h2>
+                                    <h2 style="color: white"><b><%= item.name%></b></h2>
                                     <h4 style="color: white"><%= item.singer%></h4>
                                     <div id="segmented-play-now" class="btn btn-link" data-link="#" role="button">
-                                        <a href="#">PHÁT NGAY</a>
+                                        <a href="http://music-nodejs.herokuapp.com/artist/<%= item.musicId %>">PHÁT NGAY</a>
                                     </div>
                                 </figcaption>
                             </div>

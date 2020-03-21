@@ -41,8 +41,21 @@ app.get("/signup",function (req,res) {
 app.get("/login",function (req,res) {
     res.render("dangnhap");
 });
-
-
+app.get("/artist/:musicId",function (req,res){
+    //de lay gia tri tham so
+    var musicId = req.params.musicId;
+    var homeMusicList_text = fs.readFileSync("data/homeMusicList.json");
+    var homeMusicList = JSON.parse(homeMusicList_text);
+    var artist = null;
+    for (var i=0; i<homeMusicList.length;i++){
+        if(homeMusicList[i].musicId == musicId) {
+            artist = homeMusicList[i];
+            res.render("artist", {artist: artist});
+            return;
+        }
+    }
+    res.send("khong tim thay lien lạc");
+});
 
 
 

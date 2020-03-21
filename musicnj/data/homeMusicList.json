@@ -1,9 +1,113 @@
 [
   {
     "musicId": 1,
+    "banner": "imgs/banner-homelistimage-1.jpg",
     "image": "imgs/homelistimage-1.jfif",
-    "name": "After Hours",
-    "singer": "The weekend"
+    "name": "Rực rỡ tháng năm",
+    "singer": "Mỹ Tâm",
+    "list":
+    [
+        {
+          "link": "../data/01.mp3",
+          "cover": "../data/cover1.png",
+          "song": "Hơn cả yêu"
+        },
+        {
+          "link": "../data/02.mp3",
+          "cover": "../data/cover2.png",
+          "song": "Sao anh chưa về nhà"
+        },
+        {
+          "link": "../data/03.mp3",
+          "cover": "../data/cover3.png",
+          "song": "Ai đợi mình được mãi"
+        },
+        {
+          "link": "../data/04.mp3",
+          "cover": "../data/cover4.png",
+          "song": "Khóc cùng em"
+        },
+        {
+          "link": "../data/05.mp3",
+          "cover": "../data/cover5.png",
+          "song": "Hai phút hơn"
+        },
+        {
+          "link": "../data/06.mp3",
+          "cover": "../data/cover6.png",
+          "song": "Cứ tưởng thế nào"
+        },
+        {
+          "link": "../data/07.mp3",
+          "cover": "../data/cover7.png",
+          "song": "Muốn cả thế giới biết anh yêu em"
+        },
+        {
+          "link": "../data/08.mp3",
+          "cover": "../data/cover8.png",
+          "song": "Sài Gòn của anh"
+        },
+        {
+          "link": "../data/09.mp3",
+          "cover": "../data/cover9.png",
+          "song": "Nếu em hết thương rồi"
+        },
+        {
+          "link": "../data/10.mp3",
+          "cover": "../data/cover10.png",
+          "song": "Cứ ngỡ là anh"
+        },
+        {
+          "link": "../data/11.mp3",
+          "cover": "../data/cover11.png",
+          "song": "Yếu đuối cho ai xem"
+        },
+        {
+          "link": "../data/12.mp3",
+          "cover": "../data/cover12.png",
+          "song": "Nắm"
+        },
+        {
+          "link": "../data/13.mp3",
+          "cover": "../data/cover13.png",
+          "song": "Đừng chờ"
+        },
+        {
+          "link": "../data/14.mp3",
+          "cover": "../data/cover14.png",
+          "song": "Phụ tình"
+        },
+        {
+          "link": "../data/15.mp3",
+          "cover": "../data/cover15.png",
+          "song": "Hành lang cũ(Hạ nhớ)"
+        },
+        {
+          "link": "../data/16.mp3",
+          "cover": "../data/cover16.png",
+          "song": "Tặng anh cho cô ấy"
+        },
+        {
+          "link": "../data/17.mp3",
+          "cover": "../data/cover17.png",
+          "song": "Đừng khóc nữa mà"
+        },
+        {
+          "link": "../data/18.mp3",
+          "cover": "../data/cover18.png",
+          "song": "Yêu một người tổn thương"
+        },
+        {
+          "link": "../data/19.mp3",
+          "cover": "../data/cover19.png",
+          "song": "Anh đi đi"
+        },
+        {
+          "link": "../data/20.mp3",
+          "cover": "../data/cover20.png",
+          "song": "Duyên trời lấy 2"
+        }
+    ]
   },
   {
     "musicId": 2,

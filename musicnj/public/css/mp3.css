@@ -1,8 +1,4 @@
-.mp3{
-    background-image: url("https://cdn.pixabay.com/photo/2016/03/27/07/32/light-1282314__340.jpg");
-    background-size: cover;
-    padding-top: 1%;
-}
+
 .player {
     background: transparent url("../imgs/player.png") no-repeat scroll center top;
     height: 491px;
