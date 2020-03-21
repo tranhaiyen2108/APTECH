@@ -40,6 +40,9 @@
 .pl:hover {
     top: 42px;
 }
+.list-group .list-inline:hover{
+    background-color: #dbdbdb;
+}
 .cover {
     background: transparent url(../data/cover1.png) no-repeat scroll center top;
     background-size: 260px;
