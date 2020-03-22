@@ -1,3 +1,6 @@
+body{
+    background-color: #fcfcfc;
+}
 .bodyMain {
     background-image: url("../imgs/HomPageBackground.jpg");
     width: 100%;
@@ -115,6 +118,10 @@
 .chart a:hover, a:active{
     color: black;
     text-decoration: none;
+}
+.singer_img{
+    padding-top: 80px;
+    background-color: black;
 }
 .album-results figure .content-overlay{
     -webkit-transition: all 0.2s ease-in-out;
@@ -236,6 +243,8 @@
 .album-results-free .btn-stroked-dark {
     margin-bottom: 70px;
 }
+
+
 h1,
 h2,
 h3 .h1,

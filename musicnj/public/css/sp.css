@@ -1,0 +1,84 @@
+.thongtin_brand .help{
+    color: #1ed760!important;
+}
+.bodymain{
+    padding-top: 100px;
+}
+.headd{
+    padding-top: 50px;
+}
+.topic{
+    margin: 24px 0 12px;
+    font-size: 80px;
+    font-weight: 700;
+}
+.topic-sm{
+    font-size: 60px;
+    margin: 45px 0 50px;
+}
+.text1{
+    margin: 50px 0 30px;
+    font-size: 32px;
+    font-weight: 700;
+}
+.text2{
+    margin: .5em 0 1em;
+    font-size: 15px;
+}
+.text3{
+    margin: 45px 0 30px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.text4{
+    padding-left: 24px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+li{
+    margin-bottom: 5px;
+}
+.end{
+    margin-bottom: 100px;
+}
+.truot{
+    z-index: 1000;
+    position: fixed;
+}
+.topict{
+    color: #222326;
+    font-size: 26px;
+    border-bottom: 0;
+    background-color: transparent;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+.ull{
+    padding-top: 30px;
+    display: block;
+    max-height: none;
+    transition: max-height .2s;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+.ull li{
+    list-style: none;
+}
+.ull a{
+    font-weight: 700;
+    line-height: 20px;
+    padding: 0 0 12px;
+    border: 0!important;
+    display: block;
+    font-size: 18px;
+    color: #2d46b9;
+}
+.ull a:hover{
+    text-decoration: none;
+    color: #1e3264;
+}
+.ull a:active,.ull a:focus{
+    text-decoration: none;
+    color: #2d46b9;
+}

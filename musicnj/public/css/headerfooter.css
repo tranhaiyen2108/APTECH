@@ -64,63 +64,14 @@
 footer  {
     color: white;
     background-color: black;
-    padding : 80px 0px 50px 0px;
+    padding : 30px 0px 50px 0px;
 }
 
-.footer1 {
-    display: flex;
-}
-.left_footer {
-    width: 70%;
-    display :flex;
-}
-.right_footer  {
-    width: 30%;
-    display : flex;
-    justify-content: flex-end;
-    margin-top:20px;
-}
-.img_footer {
-    width: 25%;
-}
-.thongtin_footer {
-    width: 25%;
-}
-.thumnuc_thongtin_footer  {
-    width: 80%;
-    line-height:24px;
-    font-weight:400;
-    font-size:16px;
-    padding: 3px 0px 15px 0px;
-    margin: 0px;
-
-
-}
-.thumnuc_thongtin_footer a{
-    color: #fff;
-}
-.thumnuc_thongtin_footer a:hover{
-    color: #1ed760;
-    text-decoration: none;
-}
-.thumnucdau_thongtin_footer {
-    margin: 20px 0px;
-    font-size:12px;
-    font-weight:900;
-    letter-spacing:0.96px;
-    line-height:16.8px;
-    color:rgb(145, 148, 150);
-    text-transform: uppercase;
-}
-.img_hinhanh {
-    margin: 0px 15px 0px 0px;
-}
 .footer2 {
     font-size:12px;
     font-weight:400;
     line-height:18px;
     color:rgb(145, 148, 150);
-    margin-top: 30px;
 }
 .vietnam {
     display :flex;

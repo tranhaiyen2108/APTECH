@@ -16,20 +16,20 @@
     <%- include('header')-%>
 </div>
 <main>
+    <div class="singer_img"></div>
     <section class='section'>
             <div class="container">
-                <img class="col-xs-12" src="<%= artist.banner%>" style="width: 100%" alt="...">
+                <img class="col-xs-12" src="<%= artist.banner%>" style="width: 100%;padding:0;margin: 20px 0 30px;box-shadow: 5px 5px 10px 10px #f2f2f2;" alt="...">
             </div>
     </section>
     <section class="section">
         <div class="container">
-            <div class="jumbotron col-xs-12" style="background-color: white; padding:20px;border-bottom: 1px solid #efefef;line-height: 1.5">
+            <div class="jumbotron col-xs-12" style="background-color: #fcfcfc; padding:20px;border-bottom: 1px solid #efefef;line-height: 1.5">
                 <div class="row">
                     <div class="col-xs-2">
-                        <a href="#mp3"><img src="<%= artist.image %>" width="140em" height="120em"  style="border-radius: 100%"/>
+                        <a href="#mp3"><img src="<%= artist.image %>" width="128em" height="120em"  style="border-radius: 100%"/>
                         </a>
                     </div>
-                    <div class="col-xs-1"></div>
                     <div class="col-xs-9">
                         <h3><b><%= artist.singer%></b></h3>
                     </div>
@@ -40,6 +40,7 @@
             <div class="mp3 col-xs-4" id="mp3">
                     <div class="player">
                         <div class="pl"></div>
+                        <div class="title"><marquee class="mar" direction="left"></marquee></div>
                         <div class="artist"></div>
                         <div class="cover"></div>
                         <div class="controls">
@@ -58,7 +59,7 @@
                     </ul>
             </div>
             <div class="col-xs-1"></div>
-            <div class="col-xs-6">
+            <div class="col-xs-6" style="margin-bottom: 50px">
                 <div class="container">
                     <ul class="list-group list-group-flush" style="color: white">
                         <% artist.list.forEach(function (item) { %>
@@ -69,7 +70,7 @@
                                     </div>
                                     <div class="col-xs-5" style="padding-top: 3em">
                                         <div class="col-xs-12" >
-                                            <a href="#mp3"><h4><%=item.song %></h4></a>
+                                            <a href="#mp3" style="color: black;"><h4><%=item.song %></h4></a>
                                         </div>
                                     </div>
                                     <div class="col-xs-5 pull-left" style="height: 8em; padding-top: 2em">

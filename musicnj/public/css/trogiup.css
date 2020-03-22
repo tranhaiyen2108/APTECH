@@ -103,8 +103,7 @@ input:focus::placeholder{
     height: 100%;
 }
 .col{
-    margin-left: 8.3333333%;
-    width: 70%;
+    width: 100%;
     float: left;
     position: relative;
     min-height: 1px;
@@ -121,11 +120,11 @@ input:focus::placeholder{
 }
 .categories{
     float: left;
-    width: 28%;
+    width: 26%;
 }
 .categories h3{
     color: #222326;
-    font-size: 24px;
+    font-size: 26px;
     border-bottom: 0;
     background-color: transparent;
     font-weight: 700;

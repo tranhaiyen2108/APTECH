@@ -17,8 +17,8 @@
     -ms-user-select: none;
 }
 .title {
-    color: #FFFFFF;
-    font-size: 14px;
+    color: white;
+    font-size: 20px;
     font-weight: bold;
     top: 25px;
 }
@@ -159,11 +159,14 @@
     cursor: pointer;
     margin: 0 0 5px 15px;
     border-radius: 50px;
-    padding-left: 10px;
+    padding-left: 20px;
 }
 .playlist li.active {
-    font-weight: bold;
-    font-style: italic;
+    font-weight: bolder;
+    background-color: #616467;
+}
+.playlist li:hover{
+    font-weight: bolder;
     background-color: #616467;
 }
 /*******Circle Animation ********/

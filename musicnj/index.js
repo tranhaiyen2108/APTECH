@@ -54,7 +54,10 @@ app.get("/artist/:musicId",function (req,res){
             return;
         }
     }
-    res.send("khong tim thay lien lạc");
+    res.send("Không tìm thấy liên lạc!");
+});
+app.get("/support",function (req,res) {
+    res.render("support");
 });
 
 
