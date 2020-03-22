@@ -1,6 +1,9 @@
 .thongtin_brand .help{
     color: #1ed760!important;
 }
+body{
+    background-color: #f2f2f2;
+}
 .bodymain{
     padding-top: 100px;
 }
